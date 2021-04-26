@@ -1,45 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Plant Base
 
-Welcome USER_NAME,
+## __1. Purpose of the project__ 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+ This project is the first milestone in my full stack developer course. Its intention is to showcase everything Ive learnt so far, in particular my understanding and ability to use HTML5 and CSS3 whilst focusing on the user experience. For this I have created a website for a fictional vegan cafe/ events venue called The Plant Base.
 
-## Gitpod Reminders
+ __Company objectives:__
+* An online presence
+* Get more customers
+* Promote Sustainability
+* Encourage meat free diets
+* Provide a relaxing and enjoyable space
+* Build and strengthen sense of community 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## __2. user stories__
+ 
+ __First time users:__
 
-`python3 -m http.server`
+a. As a first time user I want to quickly and easily find essential information such as location and opening times.
 
-A blue button should appear to click: _Make Public_,
+b. As a first time user I want to know what you are selling and how I can get
+it.
 
-Another blue button should appear to click: _Open Browser_.
+c. As a first time user I want clear and intuitive navigation between pages.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+d. As a first time user I want images of the types of space and events so I can quickly decide if I'm interested in going.
 
-A blue button should appear to click: _Make Public_,
+ __Returning users:__
 
-Another blue button should appear to click: _Open Browser_.
+a. As a returning user I want to see a list of events so I know what's happening when 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+b. As a returning user I want clear contact details so I can request any extra information I need.
 
-## Updates Since The Instructional Video
+## __3. Features__ 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
++ Navigation: The nav bar will be fixed to the top of the page, with clear clickable links to the other pages on the site. It will be responsive across different screen sizes, changing into a collapsible menu on smaller screens.
+The logo will also be a clickable link back to the home page. Use :hover and :active pseudo class for links to improve user experience.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
++ Imagery: Large image on the homepage showing people enjoying the inviting space. Use Carousel feature from bootstrap to cycle through multiple images. Other stationary images that align with written information i.e food photos next to section about our menu.
+Use font awesome icons to help users immediately associate with the text.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
++ Use Iframe to embed google maps so users can find us.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
++ A table to show upcoming events, with dates and prices.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
++ Links to social media under contact details. Use target = “_blank” so user not taken away from our site.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
++ Form to allow users to request more information. Use “required” attribute to avoid incomplete form submission. Drop down menu options to clearly separate people wanting to book an event from those wanting to host an event. 'Form successfully submitted' response upon submitting form.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## __4. future features__ 
+	
++ Use Javascript to Add interactive calendar for users to see upcoming events. 
++ Store information entered via contact form.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## __5. Typography and colour scheme__ 
 
----
+Use a mixture of Browns and greens to symbolise the earth and plants which ties in with our company aims and values. Used colormind to select initial color palate 
 
-Happy coding!
++ #B4BF58 = light pastle green
++ #69A32A  = main logo green
++ #4E592A  = dark green
++ #BA6119  = Main brown
++ #CF7326  = Lighter brown
+ 
+text color is light to contrast with the main earthy brown color of the site.
+
+The heading font is BenchNine from google fonts and was chosen to be clear and stylish without being too robotic. It comes in a light 300, regular 400 and bold 700 which allows for clear distinguishing between main headings and sub headings. 
+
+## __6. wireframes__
+
+I used balsamiq to create mock ups of the website, use the link to view them.
+[The Plant Base wireframes](assets/images/README-images/wireframes/ThePlantBase.pdf)
