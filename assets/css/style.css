@@ -1,3 +1,102 @@
-.red-text {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Yellowtail&display=swap');
+
+* {
+    margin: 0
+    border: 0
+    padding: 0
+}
+/* -------------------colors------------------ */
+
+body {
+    background-color: #c88553;
+}
+
+.nav-bar a, .brand {
+    color: #f1f1f1;
+}
+
+a:hover {
+    color: #aeaeae;
+}
+
+/* -------------------navbar------------------ */
+
+
+nav {
+    margin: 10px 10px 0px 0px;
+}
+.nav-bar {
+    font-family: "BenchNine";
+    float: right;
+    margin-top: 25px;
+}
+
+.nav-bar a {
+    font-size: 30px;
+    margin: 0px 10px 10px 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: -40px;
+}
+
+.brand {
+    font-family: "BenchNine";
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.logo-brand {
+    display: inline-block;
+    
+}
+
+/* -------------------dropdown menus------------------ */
+
+.menu-dropdown {
+    position: relative;
+    display: inline-block
+}
+
+.food-drink-menu {
+    display: none;
+    position: absolute;
+    background-color: #c88553;
+    border: 1px solid black;
+}
+
+.menu-dropdown:hover .food-drink-menu {
+    display: block;
+}
+
+
+/* -------------------images------------------ */
+
+#hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* -------------------media Queries------------------ */
+
+@media screen and (max-width: 770px) {
+    
+    nav {
+        margin: 0;
+    }
+    .logo-brand {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-bar {
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px 10px;
+    }
 }
