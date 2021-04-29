@@ -4,6 +4,7 @@
 To do list:
 - add backup fonts to styles!! 
 - adjust font color so contrast is okay!!
+- figure out small margin right extending past screen!!
 */
 
 * {
@@ -170,6 +171,7 @@ hr {
         position: relative;
         display: block;
         /* justify-content: center; */
+        bottom: 7px;
     }
     .nav-bar {
         display: none;
@@ -185,12 +187,16 @@ hr {
         position: absolute;
         background-color: rgba(4,4,4,0.5);
         width: 100vw;
+        right: 0;
         text-align: center;
     }
 }
 
 @media screen and (max-width: 420px) {
     
+    nav {
+        height: 100px;
+    }
     .nav-bar-drop-down {
         position: relative;
         display: block;
@@ -206,7 +212,7 @@ hr {
         display: block;
         position: absolute;
         background-color: rgba(4,4,4,0.5);
-        width: fit-content;
+        width: 100vw;
         top: 100%;
         right: 0.1%;
         text-align: center;
