@@ -23,7 +23,7 @@ a:hover {
 
 
 nav {
-    margin: 10px 10px 0px 0px;
+    margin-top: 10px;
 }
 .nav-bar {
     font-family: "BenchNine";
@@ -57,6 +57,18 @@ a:hover {
 
 /* -------------------dropdown menus------------------ */
 
+.nav-bar-drop-down {
+    position: relative;
+    display: none;
+    font-size: 30px;
+    color: white;
+}
+
+.nav-bar {
+    display: block;
+    float: right;
+}
+
 .menu-dropdown {
     position: relative;
     display: inline-block
@@ -66,7 +78,8 @@ a:hover {
     display: none;
     position: absolute;
     background-color: #c88553;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
+    text-align: center;
 }
 
 .menu-dropdown:hover .food-drink-menu {
@@ -84,19 +97,50 @@ a:hover {
 /* -------------------media Queries------------------ */
 
 @media screen and (max-width: 770px) {
-    
-    nav {
-        margin: 0;
-    }
+
     .logo-brand {
         display: flex;
         justify-content: center;
+        margin-bottom: -10px;
     }
 
     .nav-bar {
         float: none;
         display: flex;
         justify-content: center;
-        margin: 0px 0px 0px 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    
+    .nav-bar-drop-down {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-bar {
+        display: none;
+        margin: 0px;
+    }
+
+    .nav-bar-bars:hover .nav-bar {
+        display: block;
+        position: absolute;
+        background-color: #c88553;
+        border: 1px solid whitesmoke;
+        width: 100%;
+        top: 100%;
+        right: 0.1%;
+        text-align: center;
+    }
+    .logo {
+        margin: 0px;
+        display: block;
+        margin-left: 81px;
+    }
+    .logo-brand {
+        margin-bottom: -20px;
     }
 }
