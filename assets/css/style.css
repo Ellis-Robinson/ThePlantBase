@@ -12,6 +12,7 @@ To do list:
     border: 0px
     padding: 0px
 }
+
 /* -------------------colors------------------ */
 
 body {
@@ -105,7 +106,7 @@ a:hover {
 
 /* -------------------footer------------------ */
 
-.opening-times {
+.opening-times-table {
     display: flex;
     justify-content: center;
     font-size: small;
@@ -118,7 +119,7 @@ a:hover {
 }
 
 .contact-details a {
-    color: #f1f1f1;
+    color: #212529;
 }
 
 /* -------------------general------------------ */
@@ -140,7 +141,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 hr {
-    border-top: 2px solid rgba(0,0,0,0.4)
+    border-top: 2px solid rgba(0,0,0,0.4);
+    width: 95%;
+}
+
+.row {
+    margin: 0;
+}
+
+.display-mobile-screen {
+    display: none;
 }
 
 /* -------------------media Queries------------------ */
@@ -192,14 +202,16 @@ hr {
     }
 }
 
-@media screen and (max-width: 420px) {
-    
+@media screen and (max-width: 520px) {
+     /*----nav bar---*/
     nav {
-        height: 100px;
+        height: 75px;
     }
     .nav-bar-drop-down {
         position: relative;
         display: block;
+        font-size: 20px;
+        bottom: 0;
         /* display: flex;
         justify-content: center; */
     }
@@ -213,7 +225,7 @@ hr {
         position: absolute;
         background-color: rgba(4,4,4,0.5);
         width: 100vw;
-        top: 100%;
+        top: 92%;
         right: 0.1%;
         text-align: center;
     }
@@ -222,5 +234,22 @@ hr {
     }
     .logo-brand {
         margin-bottom: -20px;
+    }
+
+    .brand {
+        font-size: 45px;
+    }
+        /*------footer-----*/
+    .contact-details {
+        min-width: 100%;
+    }
+    .opening-times {
+        min-width: 100%;
+    }
+    .vl {
+        display: none;
+    }
+    .display-mobile-screen {
+        display: block;
     }
 }
