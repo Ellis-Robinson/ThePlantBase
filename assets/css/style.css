@@ -4,14 +4,7 @@
 To do list:
 - add backup fonts to styles!! 
 - adjust font color so contrast is okay!!
-- figure out small margin right extending past screen!!
 */
-
-* {
-    margin: 0px
-    border: 0px
-    padding: 0px
-}
 
 /* -------------------colors------------------ */
 
@@ -104,6 +97,10 @@ a:hover {
     height: auto;
 }
 
+.about-us img {
+    width: 100%;
+}
+
 /* -------------------footer------------------ */
 
 .opening-times-table {
@@ -131,6 +128,7 @@ a:hover {
 h1,h2,h3,h4,h5,h6 {
     font-family: "BenchNine" ;
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 .vl {
@@ -153,6 +151,18 @@ hr {
     display: none;
 }
 
+.section-heading {
+    width: fit-content;
+    display: inline-block;
+}
+
+.small-hr {
+    width: 60%;
+    margin-top: -5px;
+    margin-bottom: 2rem;
+    border-top: 2px solid;
+}
+
 /* -------------------media Queries------------------ */
 
 @media screen and (max-width: 770px) {
@@ -164,23 +174,13 @@ hr {
 
     .logo-brand {
         display: block;
-        /* justify-content: center; */
         margin-bottom: -10px;
         padding-right: 10px;
     }
 
-    /* .nav-bar {
-        float: none;
-        display: flex;
-        justify-content: center;
-        margin-left: 10px;
-        margin-top: 0px;
-    } */
-
     .nav-bar-drop-down {
         position: relative;
         display: block;
-        /* justify-content: center; */
         bottom: 7px;
     }
     .nav-bar {
@@ -200,6 +200,22 @@ hr {
         right: 0;
         text-align: center;
     }
+    /*-----about us-----*/
+    .our-aim,
+    .our-menu,
+    .your-space {
+        display: inline-flex;
+        flex: 100%;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .our-aim div,
+    .our-menu div,
+    .your-space div {
+        max-width: 50%;
+        margin-right: 6px;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -212,12 +228,14 @@ hr {
         display: block;
         font-size: 20px;
         bottom: 0;
-        /* display: flex;
-        justify-content: center; */
     }
     .nav-bar {
         display: none;
         margin: 0px;
+    }
+
+    .nav-bar a {
+        font-size: 25px;
     }
 
     .nav-bar-bars:hover .nav-bar {
@@ -239,6 +257,18 @@ hr {
     .brand {
         font-size: 45px;
     }
+
+    /* ------about us------ */
+    .about-us img {
+        display: none;
+    }
+    .our-aim div,
+    .our-menu div,
+    .your-space div {
+        max-width: 100%;
+        margin-right: 6px;
+    }
+
         /*------footer-----*/
     .contact-details {
         min-width: 100%;
