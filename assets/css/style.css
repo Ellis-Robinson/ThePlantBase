@@ -4,14 +4,8 @@
 To do list:
 - add backup fonts to styles!! 
 - adjust font color so contrast is okay!!
-- figure out small margin right extending past screen!!
+- offset form so input sections are central and subtitles are off to left
 */
-
-* {
-    margin: 0px
-    border: 0px
-    padding: 0px
-}
 
 /* -------------------colors------------------ */
 
@@ -27,6 +21,14 @@ a:hover {
     color: #aeaeae;
 }
 
+input,
+#host-book,
+#add-info,
+#date {
+    background-color: antiquewhite;
+}
+
+
 /* -------------------navbar------------------ */
 
 
@@ -36,6 +38,11 @@ nav {
     width: 100%;
     height: 70px
 }
+
+#contact-us-nav {
+    position: static;
+}
+
 .nav-bar {
     font-family: "BenchNine";
     float: right;
@@ -99,9 +106,47 @@ a:hover {
 
 /* -------------------images------------------ */
 
+.hero-image {
+    height: 90vh;
+    background-image: url(https://browser-chocolate-guppy-vbanub8c.ws-eu03.gitpod.io/workspace/ThePlantBase/assets/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
 #hero-image {
-    max-width: 100%;
-    height: auto;
+    display: none;
+}
+
+.about-us img {
+    width: 100%;
+}
+
+/* -------location + events -------- */
+.vl-location {
+    height: 40%;
+}
+/* -------------------contact page------------------ */
+#form-background {
+    border: 1px solid black;
+    margin: 40px;
+    padding: 20px;
+    background-color: rgba(4,4,4,0.5);
+    color: whitesmoke;
+    text-align: -webkit-center;
+}
+
+#add-info {
+    width: -webkit-fill-available;
+    height: 100px;
+}
+
+.contact-details-2 {
+    display: none;
+}
+
+.request-details-2 {
+    display: none;
 }
 
 /* -------------------footer------------------ */
@@ -122,6 +167,10 @@ a:hover {
     color: #212529;
 }
 
+.vl-footer {
+    height: 24%;
+}
+
 /* -------------------general------------------ */
 
 .centred {
@@ -131,11 +180,11 @@ a:hover {
 h1,h2,h3,h4,h5,h6 {
     font-family: "BenchNine" ;
     font-weight: 700;
+    text-transform: capitalize;
 }
 
 .vl {
     border-left: 1px solid black;
-    height: 25%;
     position: absolute;
     right: 50%;
 }
@@ -149,10 +198,52 @@ hr {
     margin: 0;
 }
 
-.display-mobile-screen {
+.display-block-md {
     display: none;
 }
 
+.display-block-sm {
+    display: none;
+}
+
+.section-heading {
+    width: fit-content;
+    display: inline-block;
+}
+
+.small-hr {
+    width: 60%;
+    margin-top: -5px;
+    margin-bottom: 2rem;
+    border-top: 2px solid;
+}
+
+.location-events iframe {
+    width: 100%;
+    height: 70%;
+}
+
+form table {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 20px;
+    font-family: "BenchNine";
+    width: 80px;
+    font-weight: 700;
+    background-color: antiquewhite;
+    border-radius: 20%;
+}
+
+button:hover {
+    border-style: outset;
+    background-color: burlywood;
+}
+button:active {
+    border-style: inset;
+}
 /* -------------------media Queries------------------ */
 
 @media screen and (max-width: 770px) {
@@ -164,23 +255,13 @@ hr {
 
     .logo-brand {
         display: block;
-        /* justify-content: center; */
         margin-bottom: -10px;
         padding-right: 10px;
     }
 
-    /* .nav-bar {
-        float: none;
-        display: flex;
-        justify-content: center;
-        margin-left: 10px;
-        margin-top: 0px;
-    } */
-
     .nav-bar-drop-down {
         position: relative;
         display: block;
-        /* justify-content: center; */
         bottom: 7px;
     }
     .nav-bar {
@@ -200,6 +281,43 @@ hr {
         right: 0;
         text-align: center;
     }
+    /*----hero----*/
+    .hero-image {
+        height: auto;
+    }
+    #hero-image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    /*-----about us-----*/
+    .our-aim,
+    .our-menu,
+    .your-space {
+        display: inline-flex;
+        flex: 100%;
+        max-width: 100%;
+        margin-top: 15px;
+    }
+
+    .our-aim div,
+    .our-menu div,
+    .your-space div {
+        max-width: 50%;
+        margin-right: 6px;
+    }
+    
+    /*---location + events ---*/
+    .vl-location {
+        display: none;
+    }
+    .location,
+    .events {
+        min-width: 100%;
+    }
+     .display-block-md {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -212,12 +330,14 @@ hr {
         display: block;
         font-size: 20px;
         bottom: 0;
-        /* display: flex;
-        justify-content: center; */
     }
     .nav-bar {
         display: none;
         margin: 0px;
+    }
+
+    .nav-bar a {
+        font-size: 25px;
     }
 
     .nav-bar-bars:hover .nav-bar {
@@ -239,6 +359,50 @@ hr {
     .brand {
         font-size: 45px;
     }
+
+    /* ------about us------ */
+    .about-us img {
+        display: none;
+    }
+    .our-aim div,
+    .our-menu div,
+    .your-space div {
+        max-width: 100%;
+        margin-right: 6px;
+    }
+
+    /* ---- contact page ---- */
+    form input {
+        width: 90%;
+    }
+
+    .contact-details-2 {
+    display: inline;
+    }
+
+    .contact-details-1 {
+        display: none;
+    }
+
+    .request-details-2 {
+        display: inline;
+    }
+
+    .request-details-1 {
+        display: none;
+    }
+
+    #form-background {
+        margin: 10px;
+    }
+    .form-heading {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    label {
+        min-width: 110px;
+    }
         /*------footer-----*/
     .contact-details {
         min-width: 100%;
@@ -246,10 +410,10 @@ hr {
     .opening-times {
         min-width: 100%;
     }
-    .vl {
+    .vl-footer {
         display: none;
     }
-    .display-mobile-screen {
+    .display-block-sm {
         display: block;
     }
 }

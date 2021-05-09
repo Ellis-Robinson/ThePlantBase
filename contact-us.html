@@ -11,7 +11,7 @@
 <body>
     <!-- nav bar -->
     <header>
-        <nav>
+        <nav id="contact-us-nav">
             <div class="logo-brand">
                 <a href="index.html">
                     <img class="logo" src="assets/images/logo.png" width="60px" height="60px">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <!--laptop screen nav bar-->
+            <!--large screen nav bar-->
                 <div class="nav-bar"> 
                         <a href="index.html">Home</a>
                         <!--Drop down menu-->
@@ -53,96 +53,127 @@
                 </div>
         </nav>
     </header>
-    <!-- hero image -->
-    <div class="hero-image">
-        <img id="hero-image" src="assets/images/hero.jpg">
-    </div>
-    <!-- About us -->
-    <div class="about-us centred">
-        <div class="section-heading centred">
-            <h3>- about us -</h3>
-            <hr class="small-hr">
-        </div>
-        <div class="row">
-            <div class="col-4 our-aim centred">
-                <div>
-                        <h5>our aim   <i class="fas fa-recycle"></i></h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam reiciendis est asperiores iste provident exercitationem nisi distinctio repudiandae. Dignissimos nesciunt perferendis magnam nostrum natus deserunt repellendus laborum nihil corrupti harum.</p>
-                </div>
-                <div>
-                    <img src="assets/images/plant-bulb.jpg">
-                </div>
-            </div>
-            <div class="col-4 our-menu centred">
-                <div>
-                    <h5>our menu <i class="fas fa-utensils"></i></h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam reiciendis est asperiores iste provident exercitationem nisi distinctio repudiandae. Dignissimos nesciunt perferendis magnam nostrum natus deserunt repellendus laborum nihil corrupti harum.</p>
-                </div>
-                <div>
-                    <img src="assets/images/high-protein-vegan-foods-1.jpg">
-                </div>
-            </div>
-            <div class="col-4 your-space centred">
-                <div>
-                    <h5>your space <i class="fas fa-users"></i></h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam reiciendis est asperiores iste provident exercitationem nisi distinctio repudiandae. Dignissimos nesciunt perferendis magnam nostrum natus deserunt repellendus laborum nihil corrupti harum.</p>
-                </div>
-                <div>
-                    <img src="assets/images/coffee-cheers.jpg">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-    <!-- Location + Upcoming events -->
-    <div class="location-events">
-        <div class="row">
-            <div class="col-6 centred location">
+    <!--contact us form-->
+    <div id="form-background">
+        <div id="form">
+            <form>
                 <div class="section-heading centred">
-                    <h3>- location- </h3>
+                    <h3>- contact form -</h3>
                     <hr class="small-hr">
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1260.1356452902019!2d-0.13889771615438487!3d50.82613868014604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48758575663032a1%3A0xa2e40aedce8a8b76!2sKensington%20House%2C%2028%20Kensington%20St%2C%20Brighton%20BN1%204AJ!5e0!3m2!1sen!2suk!4v1620146228242!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            
-            <div class="vl vl-location"> </div>
-            <hr class="display-block-md">
-
-            <div class="col-6 centred events">
-                <div class="section-heading centred">
-                    <h3>- events -</h3>
-                    <hr class="small-hr">
-                </div>
-                <table class="table table-dark table-striped">
-                    <thead>
-                        <tr>
-                            <th scope="col">Event</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Date</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">Open mic night</th>
-                            <td>Free</td>
-                            <td>Thursday 17th June</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Rock night (NTK)</th>
-                            <td>£5</td>
-                            <td>Saturday 19th June</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Poetry reading</th>
-                            <td>£2</td>
-                            <td>Tuesday 22nd June</td>
-                        </tr>
-                    </tbody>
-                    </table>
-            </div>
+                <table>
+                    <tr>
+                        <th class="form-heading">
+                            <h5 class="contact-details-1">contact details</h5>
+                        </th>
+                        <th class="form-heading">
+                            <h5 class="contact-details-2">contact details</h5>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="fname">
+                                First Name:
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" name="first-name" id="fname" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="lname">
+                                Last Name:
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" name="last-name" id="lname" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="email">
+                                Email Address:
+                            </label>
+                        </td>
+                        <td>
+                            <input type="email" name="email-address" id="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="phone-number">
+                                Phone Number:
+                            </label>
+                        </td>
+                        <td>
+                            <input type="number" name="phone-number" id="phone-number" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="company">
+                                Company:
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" name="company" id="company">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="form-heading">
+                            <h5 class="request-details-1">request details</h5>
+                        </td>
+                        <td class="form-heading">
+                            <h5 class="request-details-2">request details</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="host-book">
+                                Type Of Request:
+                            </label>
+                        </td>
+                        <td>
+                            <select id="host-book" name="host-book">
+                                <option value="host">Host An Event</option>
+                                <option value="book">Book An Event</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <label for="date">
+                                Date:
+                            </label>
+                        </td>
+                        <td>
+                            <input type="date" name="date" id="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="2">
+                            <label for="add-info">
+                                additional-info
+                            </label>
+                            <br>
+                            <textarea name="additional-info" id="add-info">
+                            </textarea>
+                        </td>
+                    </tr>
+                </table>
+            <div class="centred"> <button type="submit">Submit</button> </div>
+        </form>
         </div>
-    </section>
+    </div>
     <!-- Opening times + Contact us -->
     <footer>
         <!--opening times-->
