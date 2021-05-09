@@ -21,6 +21,14 @@ a:hover {
     color: #aeaeae;
 }
 
+input,
+#host-book,
+#add-info,
+#date {
+    background-color: antiquewhite;
+}
+
+
 /* -------------------navbar------------------ */
 
 
@@ -115,7 +123,9 @@ a:hover {
 }
 
 /* -------location + events -------- */
-
+.vl-location {
+    height: 40%;
+}
 /* -------------------contact page------------------ */
 #form-background {
     border: 1px solid black;
@@ -123,11 +133,20 @@ a:hover {
     padding: 20px;
     background-color: rgba(4,4,4,0.5);
     color: whitesmoke;
+    text-align: -webkit-center;
 }
 
 #add-info {
-        width: -webkit-fill-available;
-        height: 100px;
+    width: -webkit-fill-available;
+    height: 100px;
+}
+
+.contact-details-2 {
+    display: none;
+}
+
+.request-details-2 {
+    display: none;
 }
 
 /* -------------------footer------------------ */
@@ -148,6 +167,10 @@ a:hover {
     color: #212529;
 }
 
+.vl-footer {
+    height: 24%;
+}
+
 /* -------------------general------------------ */
 
 .centred {
@@ -162,7 +185,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .vl {
     border-left: 1px solid black;
-    height: 25%;
     position: absolute;
     right: 50%;
 }
@@ -206,6 +228,22 @@ form table {
     justify-content: center;
 }
 
+button {
+    font-size: 20px;
+    font-family: "BenchNine";
+    width: 80px;
+    font-weight: 700;
+    background-color: antiquewhite;
+    border-radius: 20%;
+}
+
+button:hover {
+    border-style: outset;
+    background-color: burlywood;
+}
+button:active {
+    border-style: inset;
+}
 /* -------------------media Queries------------------ */
 
 @media screen and (max-width: 770px) {
@@ -333,6 +371,38 @@ form table {
         margin-right: 6px;
     }
 
+    /* ---- contact page ---- */
+    form input {
+        width: 90%;
+    }
+
+    .contact-details-2 {
+    display: inline;
+    }
+
+    .contact-details-1 {
+        display: none;
+    }
+
+    .request-details-2 {
+        display: inline;
+    }
+
+    .request-details-1 {
+        display: none;
+    }
+
+    #form-background {
+        margin: 10px;
+    }
+    .form-heading {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    label {
+        min-width: 110px;
+    }
         /*------footer-----*/
     .contact-details {
         min-width: 100%;
