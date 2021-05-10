@@ -11,6 +11,11 @@ To do list:
 
 body {
     background-color: #c88553;
+    background-image: url(https://browser-copper-tarantula-5osds9c0.ws-eu04.gitpod.io/workspace/ThePlantBase/assets/images/vine.jpg);
+}
+
+.background {
+    background-color: rgba(	200,133,83,0.95);
 }
 
 .nav-bar a, .brand {
@@ -108,7 +113,7 @@ a:hover {
 
 .hero-image {
     height: 90vh;
-    background-image: url(https://browser-chocolate-guppy-vbanub8c.ws-eu03.gitpod.io/workspace/ThePlantBase/assets/images/hero.jpg);
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/hero.jpg?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -148,6 +153,15 @@ a:hover {
 .request-details-2 {
     display: none;
 }
+
+/* -------------------events page------------------ */
+.events-images {
+
+    width: 100%;
+    height: auto;
+    min-width: 30vw;
+}
+
 
 /* -------------------footer------------------ */
 
@@ -198,6 +212,10 @@ hr {
     margin: 0;
 }
 
+.events-sections {
+    margin-bottom: 5px;
+}
+
 .display-block-md {
     display: none;
 }
@@ -228,21 +246,26 @@ form table {
     justify-content: center;
 }
 
-button {
-    font-size: 20px;
-    font-family: "BenchNine";
-    width: 80px;
-    font-weight: 700;
-    background-color: antiquewhite;
-    border-radius: 20%;
+.center-80 {
+        display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
-button:hover {
-    border-style: outset;
-    background-color: burlywood;
+.justify-left {
+    display: flex;
+    justify-content: flex-start;
 }
-button:active {
-    border-style: inset;
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+.justify-right{
+    display: flex;
+    justify-content: flex-end;
 }
 /* -------------------media Queries------------------ */
 
@@ -317,6 +340,10 @@ button:active {
     }
      .display-block-md {
         display: block;
+    }
+    /*---events page ---*/
+    .md-50 {
+        min-width: 50%;
     }
 }
 
