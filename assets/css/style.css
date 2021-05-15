@@ -11,7 +11,7 @@ To do list:
 
 body {
     background-color: #c88553;
-    background-image: url(https://browser-copper-tarantula-5osds9c0.ws-eu04.gitpod.io/workspace/ThePlantBase/assets/images/vine.jpg);
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/vine.jpg?raw=true);
 }
 
 .background {
@@ -117,6 +117,8 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    background-attachment: fixed;
+    margin-bottom: 15px;
 }
 
 #hero-image {
@@ -125,6 +127,34 @@ a:hover {
 
 .about-us img {
     width: 100%;
+}
+/* ------- about us -------- */
+.about-us i {
+    padding-left: 5px;
+}
+.anbout-us-txt {
+    height: 
+}
+#plant-bulb {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/plant-bulb.jpg?raw=true);
+        background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    border-radius: 20%;
+}
+#vegan-food {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/high-protein-vegan-foods-1.jpg?raw=true);
+        background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    border-radius: 20%;
+}
+#coffee-cheers {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/coffee-cheers.jpg?raw=true);
+        background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    border-radius: 20%;
 }
 
 /* -------location + events -------- */
@@ -162,6 +192,72 @@ a:hover {
     min-width: 30vw;
 }
 
+.eventsection-bg:hover {
+            box-shadow: 5px 5px grey;
+            transform: scale(1.25);
+        }
+        
+        .eventsection-bg {
+           text-align: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: #c88553;
+            color: white;
+            border: 5px double;
+            transition: transform .2s;
+            position: relative;
+        }
+        
+        
+        #food-tasting{
+            width: 370px;
+            height: 370px;
+            /* top: 20px;
+            left: 20px; */
+        }
+        
+            
+        #ft-txt{
+            width: 280px;
+            height: 330px;
+            margin-left: 45px;
+        }
+        
+        
+        #open-mic {
+            /* left: 330px;
+            top: 300px; */
+            width: 340px;
+            height: 340px;
+            transition: transform .2s;
+        }
+        #om-txt {
+            width: 260px;
+            margin-left: 40px;
+        }
+        #poetry-reading {
+            width: 400px;
+            height: 400px;
+            /* top: 645px;
+            left: 125px; */
+        }
+        #pr-txt {
+            width: 300px;
+            height: 330px;
+            margin-left: 50px;
+        }
+        
+        #your-next-event {
+            /* top: 785px;
+            left: 530px; */
+            width: 420px;
+            height: 420px;
+        }
+        #yne-txt {
+            width: 340px;
+            height: 320px;
+            margin-left: 40px;
+    }
 
 /* -------------------footer------------------ */
 
@@ -267,6 +363,14 @@ form table {
     display: flex;
     justify-content: flex-end;
 }
+
+img {
+    border-radius: 20%;
+}
+
+.about-us img {
+        display: none;
+    }
 /* -------------------media Queries------------------ */
 
 @media screen and (max-width: 770px) {
@@ -328,6 +432,18 @@ form table {
     .your-space div {
         max-width: 50%;
         margin-right: 6px;
+    }
+    .about-us img {
+        display: inline-flex;
+    }
+    #coffee-cheers {
+        background-image: none;
+    }
+    #vegan-food {
+        background-image: none;
+    }
+    #plant-bulb {
+        background-image: none;
     }
     
     /*---location + events ---*/
