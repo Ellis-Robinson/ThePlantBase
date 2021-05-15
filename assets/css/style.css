@@ -5,6 +5,9 @@ To do list:
 - add backup fonts to styles!! 
 - adjust font color so contrast is okay!!
 - offset form so input sections are central and subtitles are off to left
+- format images in about us section so equal and display propperly on small large screen
+- space out copyright section
+- fix vl at lg and md screen sizes
 */
 
 /* -------------------colors------------------ */
@@ -191,6 +194,11 @@ a:hover {
     height: auto;
     min-width: 30vw;
 }
+#events-heading {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
 
 .eventsection-bg:hover {
             box-shadow: 5px 5px grey;
@@ -198,8 +206,8 @@ a:hover {
         }
         
         .eventsection-bg {
-           text-align: center;
-            align-items: center;
+           /* text-align: center;
+            align-items: center; */
             border-radius: 50%;
             background-color: #c88553;
             color: white;
@@ -212,51 +220,48 @@ a:hover {
         #food-tasting{
             width: 370px;
             height: 370px;
-            /* top: 20px;
-            left: 20px; */
+            right: 20%;
         }
-        
-            
         #ft-txt{
             width: 280px;
             height: 330px;
             margin-left: 45px;
+            margin-top: 15px;
         }
-        
-        
         #open-mic {
-            /* left: 330px;
-            top: 300px; */
-            width: 340px;
-            height: 340px;
+            width: 370px;
+            height: 370px;
             transition: transform .2s;
+            left: 20%;
         }
         #om-txt {
             width: 260px;
-            margin-left: 40px;
+            margin-left: 49px;
+            margin-top:5px;
         }
         #poetry-reading {
             width: 400px;
             height: 400px;
-            /* top: 645px;
-            left: 125px; */
+            right: 20%;
         }
         #pr-txt {
             width: 300px;
             height: 330px;
             margin-left: 50px;
+            margin-top: 15px;
         }
         
         #your-next-event {
-            /* top: 785px;
-            left: 530px; */
-            width: 420px;
-            height: 420px;
+            width: 415px;
+            height: 415px;
+            left: 20%;
+            margin-bottom: 45px;
         }
         #yne-txt {
             width: 340px;
             height: 320px;
-            margin-left: 40px;
+            margin-left: 35px;
+            margin-top: 30px;
     }
 
 /* -------------------footer------------------ */
@@ -279,6 +284,19 @@ a:hover {
 
 .vl-footer {
     height: 24%;
+}
+#copyright {
+    color: whitesmoke;
+    background-color: rgba(4,4,4,0.5);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright h6 {
+    display: inline-block;
+    margin: 0px 90px;
+    font-size: larger;
 }
 
 /* -------------------general------------------ */
@@ -371,6 +389,14 @@ img {
 .about-us img {
         display: none;
     }
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+}
+.bold{
+    font-weight: 700;
+}
 /* -------------------media Queries------------------ */
 
 @media screen and (max-width: 770px) {
@@ -461,6 +487,13 @@ img {
     .md-50 {
         min-width: 50%;
     }
+    #food-tasting,
+    #poetry-reading,
+    #open-mic,
+    #your-next-event {
+        left: 0px;
+        margin-bottom: 60px;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -514,6 +547,56 @@ img {
         margin-right: 6px;
     }
 
+    /*-----events page-----*/
+
+    #food-tasting {
+        width: 200px;
+        height: 225px;
+    }
+        #ft-txt{
+            width: 180px;
+            height: 230px;
+            margin-left:5px;
+            margin-top: 5px;
+        }
+    #open-mic{
+        width: 200px;
+        height: 230px
+    }
+        #om-txt {
+            width: 170px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        #poetry-reading {
+            width: 200px;
+            height: 245px;
+        }
+        #pr-txt {
+            width: 180px;
+            height: 230px;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        
+        #your-next-event {
+            width: 200px;
+            height: 245px;
+        }
+        #yne-txt {
+            width: 180px;
+            height: 220px;
+            margin-top: 5px;
+            margin-left: 5px
+    }
+    .hide-sm {
+        display: none;
+    }
+    .eventsection-bg {
+        font-size: small;
+        border-radius: 10%;
+    }
+
     /* ---- contact page ---- */
     form input {
         width: 90%;
@@ -558,5 +641,9 @@ img {
     }
     .display-block-sm {
         display: block;
+    }
+    #copyright h6 {
+
+    margin: 0px 30px;
     }
 }
