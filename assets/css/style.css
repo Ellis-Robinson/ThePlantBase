@@ -14,7 +14,7 @@ To do list:
 
 body {
     background-color: #c88553;
-    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/vine.jpg?raw=true);
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/vine.jpg?raw=true);
 }
 
 .background {
@@ -513,22 +513,15 @@ img {
     #coffee-cheers {
         background-image: none;
     }
-    /* #coffee-cheers img {
-        margin-top: 25%;
-    }  */
+    
     #vegan-food {
         background-image: none;
     }
-    /* #vegan-food img {
-        margin-top: 15%; */
-    }
+    
     #plant-bulb {
         background-image: none;
     }
-    /* #plant-bulb img {
-        margin-top: 25%;
-    } */
-    
+
     /*---location + events ---*/
     .vl-location {
         display: none;
