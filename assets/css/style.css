@@ -5,13 +5,16 @@ To do list:
 - add backup fonts to styles!! 
 - adjust font color so contrast is okay!!
 - offset form so input sections are central and subtitles are off to left
+- format images in about us section so equal and display propperly on small large screen
+- space out copyright section
+- fix vl at lg and md screen sizes
 */
 
 /* -------------------colors------------------ */
 
 body {
     background-color: #c88553;
-    background-image: url(https://browser-copper-tarantula-5osds9c0.ws-eu04.gitpod.io/workspace/ThePlantBase/assets/images/vine.jpg);
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/vine.jpg?raw=true);
 }
 
 .background {
@@ -117,6 +120,8 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    background-attachment: fixed;
+    margin-bottom: 15px;
 }
 
 #hero-image {
@@ -127,14 +132,80 @@ a:hover {
     width: 100%;
 }
 
+.eventsection-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style: double;
+}
+#foodtasting-img {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/food-tasting.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#open-mic-img {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/open-mic3.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#poetry-reading-img {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/stock-poet.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#yne-img {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/crowd.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#coffee-outline {
+    width: 50%;
+}
+
+/* ------- about us -------- */
+.about-us i {
+    padding-left: 5px;
+}
+.anbout-us-txt {
+    height: 
+}
+#plant-bulb {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/plant-bulb.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    border-radius: 20%;
+    background-position-x: center;
+}
+#vegan-food {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/high-protein-vegan-foods-1.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    border-radius: 20%;
+    background-position-x: center;
+}
+#coffee-cheers {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/coffee-cheers.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    border-radius: 20%;
+    background-position-x: center;
+}
+
 /* -------location + events -------- */
 .vl-location {
-    height: 40%;
+    height: 270px;
 }
 /* -------------------contact page------------------ */
 #form-background {
     border: 1px solid black;
-    margin: 40px;
+    margin: 50px;
     padding: 20px;
     background-color: rgba(4,4,4,0.5);
     color: whitesmoke;
@@ -156,12 +227,77 @@ a:hover {
 
 /* -------------------events page------------------ */
 .events-images {
-
     width: 100%;
     height: auto;
     min-width: 30vw;
 }
+#events-heading {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
 
+.eventsection-bg:hover {
+    box-shadow: 5px 5px rgba(4,4,4,0.5);
+    transform: scale(1.1);
+}
+        
+.eventsection-bg {
+    border-radius: 50%;
+    background-color: #c88553;
+    color: white;
+    border: 5px double;
+    transition: transform .2s;
+    position: relative;
+}
+        
+        
+#food-tasting{
+    width: 370px;
+    height: 370px;
+    right: 5%;
+    margin-right: 20px;
+}
+#ft-txt{
+    width: 280px;
+    height: 330px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+#open-mic {
+    width: 370px;
+    height: 370px;
+    transition: transform .2s;
+    left: 5%;
+}
+#om-txt {
+    width: 260px;
+    margin-left: 49px;
+    margin-top:5px;
+}
+#poetry-reading {
+    width: 400px;
+    height: 400px;
+    right: 5%;
+}
+#pr-txt {
+    width: 300px;
+    height: 330px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#your-next-event {
+    width: 415px;
+    height: 415px;
+    left: 5%;
+    margin-bottom: 45px;
+}
+#yne-txt {
+    width: 340px;
+    height: 320px;
+    margin-left: 35px;
+    margin-top: 30px;
+    }
 
 /* -------------------footer------------------ */
 
@@ -182,11 +318,35 @@ a:hover {
 }
 
 .vl-footer {
-    height: 24%;
+    height: 170px;
+}
+#copyright {
+    color: whitesmoke;
+    background-color: rgba(4,4,4,0.5);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#copyright h6 {
+    display: inline-block;
+    margin: 0px 70px;
+    font-size: larger;
+}
+#copyright a {
+    color: whitesmoke;
 }
 
 /* -------------------general------------------ */
 
+#page-not-found {
+    padding: 25% 25% 10%;
+    text-align: center;
+}
+a:active {
+    color: #aeaeae;
+}
 .centred {
     text-align: center;
 }
@@ -267,6 +427,24 @@ form table {
     display: flex;
     justify-content: flex-end;
 }
+
+img {
+    border-radius: 20%;
+}
+
+.about-us img {
+        display: none;
+    }
+
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.bold{
+    font-weight: 700;
+}
 /* -------------------media Queries------------------ */
 
 @media screen and (max-width: 770px) {
@@ -329,6 +507,27 @@ form table {
         max-width: 50%;
         margin-right: 6px;
     }
+    .about-us img {
+        display: inline-flex;
+    }
+    #coffee-cheers {
+        background-image: none;
+    }
+    /* #coffee-cheers img {
+        margin-top: 25%;
+    }  */
+    #vegan-food {
+        background-image: none;
+    }
+    /* #vegan-food img {
+        margin-top: 15%; */
+    }
+    #plant-bulb {
+        background-image: none;
+    }
+    /* #plant-bulb img {
+        margin-top: 25%;
+    } */
     
     /*---location + events ---*/
     .vl-location {
@@ -345,8 +544,21 @@ form table {
     .md-50 {
         min-width: 50%;
     }
-}
+    #food-tasting,
+    #poetry-reading,
+    #open-mic,
+    #your-next-event {
+        left: 0px;
+        margin-bottom: 60px;
+    }
+    .eventsection-img {
+        display: none;
+    }
 
+    #copyright h6 {
+        margin: 0px 50px;
+    }
+}
 @media screen and (max-width: 520px) {
      /*----nav bar---*/
     nav {
@@ -398,6 +610,56 @@ form table {
         margin-right: 6px;
     }
 
+    /*-----events page-----*/
+
+    #food-tasting {
+        width: 200px;
+        height: 225px;
+    }
+        #ft-txt{
+            width: 180px;
+            height: 230px;
+            margin-left:5px;
+            margin-top: 5px;
+        }
+    #open-mic{
+        width: 200px;
+        height: 230px
+    }
+        #om-txt {
+            width: 170px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        #poetry-reading {
+            width: 200px;
+            height: 245px;
+        }
+        #pr-txt {
+            width: 180px;
+            height: 230px;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        
+        #your-next-event {
+            width: 200px;
+            height: 245px;
+        }
+        #yne-txt {
+            width: 180px;
+            height: 220px;
+            margin-top: 5px;
+            margin-left: 5px
+    }
+    .hide-sm {
+        display: none;
+    }
+    .eventsection-bg {
+        font-size: small;
+        border-radius: 10%;
+    }
+
     /* ---- contact page ---- */
     form input {
         width: 90%;
@@ -420,7 +682,7 @@ form table {
     }
 
     #form-background {
-        margin: 10px;
+        margin: 45px 10px;
     }
     .form-heading {
         padding-bottom: 20px;
@@ -442,5 +704,8 @@ form table {
     }
     .display-block-sm {
         display: block;
+    }
+    #copyright h6 {
+    margin: 0px 10px;
     }
 }
