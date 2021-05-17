@@ -162,6 +162,9 @@ a:hover {
     background-repeat: no-repeat;
     background-position-x: center;
 }
+#coffee-outline {
+    width: 50%;
+}
 
 /* ------- about us -------- */
 .about-us i {
@@ -197,12 +200,12 @@ a:hover {
 
 /* -------location + events -------- */
 .vl-location {
-    height: 40%;
+    height: 270px;
 }
 /* -------------------contact page------------------ */
 #form-background {
     border: 1px solid black;
-    margin: 40px;
+    margin: 50px;
     padding: 20px;
     background-color: rgba(4,4,4,0.5);
     color: whitesmoke;
@@ -229,33 +232,10 @@ a:hover {
     min-width: 30vw;
 }
 #events-heading {
-    margin-top: 15px;
+    margin-top: 45px;
     margin-bottom: 20px;
 }
-/* #ft-txt-img {
-    transition: transform .2s;
-}
-#ft-txt-img:hover {
-    transform: scale(1.15);
-}
-#om-txt-img {
-    transition: transform .2s;
-}
-#om-txt-img:hover {
-    transform: scale(1.15);
-}
-#pr-txt-img {
-    transition: transform .2s;
-}
-#pr-txt-img:hover {
-    transform: scale(1.15);
-}
-#yne-txt-img {
-    transition: transform .2s;
-}
-#yne-txt-img:hover {
-    transform: scale(1.15);
-} */
+
 .eventsection-bg:hover {
     box-shadow: 5px 5px rgba(4,4,4,0.5);
     transform: scale(1.1);
@@ -338,7 +318,7 @@ a:hover {
 }
 
 .vl-footer {
-    height: 24%;
+    height: 170px;
 }
 #copyright {
     color: whitesmoke;
@@ -351,7 +331,7 @@ a:hover {
 }
 #copyright h6 {
     display: inline-block;
-    margin: 0px 90px;
+    margin: 0px 70px;
     font-size: larger;
 }
 #copyright a {
@@ -359,6 +339,11 @@ a:hover {
 }
 
 /* -------------------general------------------ */
+
+#page-not-found {
+    padding: 25% 25% 10%;
+    text-align: center;
+}
 a:active {
     color: #aeaeae;
 }
@@ -528,12 +513,21 @@ img {
     #coffee-cheers {
         background-image: none;
     }
+    /* #coffee-cheers img {
+        margin-top: 25%;
+    }  */
     #vegan-food {
         background-image: none;
+    }
+    /* #vegan-food img {
+        margin-top: 15%; */
     }
     #plant-bulb {
         background-image: none;
     }
+    /* #plant-bulb img {
+        margin-top: 25%;
+    } */
     
     /*---location + events ---*/
     .vl-location {
@@ -560,8 +554,11 @@ img {
     .eventsection-img {
         display: none;
     }
-}
 
+    #copyright h6 {
+        margin: 0px 50px;
+    }
+}
 @media screen and (max-width: 520px) {
      /*----nav bar---*/
     nav {
@@ -685,7 +682,7 @@ img {
     }
 
     #form-background {
-        margin: 10px;
+        margin: 45px 10px;
     }
     .form-heading {
         padding-bottom: 20px;
@@ -709,7 +706,6 @@ img {
         display: block;
     }
     #copyright h6 {
-
-    margin: 0px 30px;
+    margin: 0px 10px;
     }
 }
