@@ -131,6 +131,38 @@ a:hover {
 .about-us img {
     width: 100%;
 }
+
+.eventsection-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style: double;
+}
+#foodtasting-img {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/food-tasting.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#open-mic-img {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/open-mic3.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#poetry-reading-img {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/stock-poet.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#yne-img {
+    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/crowd.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
 /* ------- about us -------- */
 .about-us i {
     padding-left: 5px;
@@ -140,24 +172,27 @@ a:hover {
 }
 #plant-bulb {
     background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/plant-bulb.jpg?raw=true);
-        background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 260px;
     border-radius: 20%;
+    background-position-x: center;
 }
 #vegan-food {
     background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/high-protein-vegan-foods-1.jpg?raw=true);
-        background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 260px;
     border-radius: 20%;
+    background-position-x: center;
 }
 #coffee-cheers {
     background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/coffee-cheers.jpg?raw=true);
-        background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 260px;
     border-radius: 20%;
+    background-position-x: center;
 }
 
 /* -------location + events -------- */
@@ -189,7 +224,6 @@ a:hover {
 
 /* -------------------events page------------------ */
 .events-images {
-
     width: 100%;
     height: auto;
     min-width: 30vw;
@@ -198,70 +232,91 @@ a:hover {
     margin-top: 15px;
     margin-bottom: 20px;
 }
-
-
+/* #ft-txt-img {
+    transition: transform .2s;
+}
+#ft-txt-img:hover {
+    transform: scale(1.15);
+}
+#om-txt-img {
+    transition: transform .2s;
+}
+#om-txt-img:hover {
+    transform: scale(1.15);
+}
+#pr-txt-img {
+    transition: transform .2s;
+}
+#pr-txt-img:hover {
+    transform: scale(1.15);
+}
+#yne-txt-img {
+    transition: transform .2s;
+}
+#yne-txt-img:hover {
+    transform: scale(1.15);
+} */
 .eventsection-bg:hover {
-            box-shadow: 5px 5px grey;
-            transform: scale(1.25);
-        }
+    box-shadow: 5px 5px rgba(4,4,4,0.5);
+    transform: scale(1.1);
+}
         
-        .eventsection-bg {
-           /* text-align: center;
-            align-items: center; */
-            border-radius: 50%;
-            background-color: #c88553;
-            color: white;
-            border: 5px double;
-            transition: transform .2s;
-            position: relative;
-        }
+.eventsection-bg {
+    border-radius: 50%;
+    background-color: #c88553;
+    color: white;
+    border: 5px double;
+    transition: transform .2s;
+    position: relative;
+}
         
         
-        #food-tasting{
-            width: 370px;
-            height: 370px;
-            right: 20%;
-        }
-        #ft-txt{
-            width: 280px;
-            height: 330px;
-            margin-left: 45px;
-            margin-top: 15px;
-        }
-        #open-mic {
-            width: 370px;
-            height: 370px;
-            transition: transform .2s;
-            left: 20%;
-        }
-        #om-txt {
-            width: 260px;
-            margin-left: 49px;
-            margin-top:5px;
-        }
-        #poetry-reading {
-            width: 400px;
-            height: 400px;
-            right: 20%;
-        }
-        #pr-txt {
-            width: 300px;
-            height: 330px;
-            margin-left: 50px;
-            margin-top: 15px;
-        }
-        
-        #your-next-event {
-            width: 415px;
-            height: 415px;
-            left: 20%;
-            margin-bottom: 45px;
-        }
-        #yne-txt {
-            width: 340px;
-            height: 320px;
-            margin-left: 35px;
-            margin-top: 30px;
+#food-tasting{
+    width: 370px;
+    height: 370px;
+    right: 5%;
+    margin-right: 20px;
+}
+#ft-txt{
+    width: 280px;
+    height: 330px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+#open-mic {
+    width: 370px;
+    height: 370px;
+    transition: transform .2s;
+    left: 5%;
+}
+#om-txt {
+    width: 260px;
+    margin-left: 49px;
+    margin-top:5px;
+}
+#poetry-reading {
+    width: 400px;
+    height: 400px;
+    right: 5%;
+}
+#pr-txt {
+    width: 300px;
+    height: 330px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#your-next-event {
+    width: 415px;
+    height: 415px;
+    left: 5%;
+    margin-bottom: 45px;
+}
+#yne-txt {
+    width: 340px;
+    height: 320px;
+    margin-left: 35px;
+    margin-top: 30px;
     }
 
 /* -------------------footer------------------ */
@@ -292,15 +347,21 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 #copyright h6 {
     display: inline-block;
     margin: 0px 90px;
     font-size: larger;
 }
+#copyright a {
+    color: whitesmoke;
+}
 
 /* -------------------general------------------ */
-
+a:active {
+    color: #aeaeae;
+}
 .centred {
     text-align: center;
 }
@@ -393,6 +454,8 @@ img {
 .display-flex-center {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
 .bold{
     font-weight: 700;
@@ -493,6 +556,9 @@ img {
     #your-next-event {
         left: 0px;
         margin-bottom: 60px;
+    }
+    .eventsection-img {
+        display: none;
     }
 }
 
