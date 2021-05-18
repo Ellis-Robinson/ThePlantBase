@@ -35,6 +35,9 @@ input,
 #date {
     background-color: antiquewhite;
 }
+.green {
+    color:#2d4e02;
+}
 
 
 /* -------------------navbar------------------ */
@@ -301,10 +304,32 @@ a:hover {
 
     /* -------------------menu----------------- */
 
-#menu-heading {
-    padding-top: 40px;
-
+#full-menu {
+    padding-top: 30px;
+    width: 60%;
+    font-size: x-large;
+    text-align: center;
+    left: 20%;
+    position: relative;
+    background-color: #c88553;
+    margin-top: 70px;
+    border: 10px groove #8e5e3b;
 }
+
+.background-vines {
+    border-top: #212529;
+}
+
+#full-menu li,
+#full-menu ul {
+    padding: 10px 0px;
+}
+/* .small-vine {
+    height: 20px;
+    width: 40%;
+    background-image: url(https://s.pngix.com/pngfile/s/617-6179709_the-open-world-action-rpg-where-you-ruin.png);
+    background-size: cover;
+} */
 
 /* -------------------footer------------------ */
 
@@ -346,6 +371,10 @@ a:hover {
 }
 
 /* -------------------general------------------ */
+
+ul {
+    list-style-type: none;
+}
 
 #page-not-found {
     padding: 25% 25% 10%;
@@ -452,6 +481,9 @@ img {
 .bold{
     font-weight: 700;
 }
+.spacer {
+    height: 70px;
+}
 /* -------------------media Queries------------------ */
 
 @media screen and (max-width: 770px) {
@@ -557,6 +589,12 @@ img {
 
     #copyright h6 {
         margin: 0px 50px;
+    }
+    /*---menu---*/
+    #full-menu {
+        width: 90%;
+        left: 5%;
+        margin-top: 90px;
     }
 }
 @media screen and (max-width: 520px) {
@@ -691,6 +729,13 @@ img {
 
     label {
         min-width: 110px;
+    }
+
+    /*---menu---*/
+    #full-menu {
+        width: 90%;
+        left: 5%;
+        margin-top: 50px
     }
         /*------footer-----*/
     .contact-details {
