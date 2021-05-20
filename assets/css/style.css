@@ -103,16 +103,16 @@ a:hover {
     display: inline-block
 }
 
-.food-drink-menu {
+/* .food-drink-menu {
     display: none;
     position: absolute;
     background-color: rgba(4,4,4,0.5);
     text-align: center;
-}
+} */
 
-.menu-dropdown:hover .food-drink-menu {
+/* .menu-dropdown:hover .food-drink-menu {
     display: block;
-}
+} */
 
 
 /* -------------------images------------------ */
@@ -177,7 +177,7 @@ a:hover {
     height: 
 }
 #plant-bulb {
-    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/plant-bulb.jpg?raw=true);
+    background-image: url(https://raw.githubusercontent.com/Ellis-Robinson/ThePlantBase/master/assets/images/plant-bulb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 260px;
@@ -185,7 +185,7 @@ a:hover {
     background-position-x: center;
 }
 #vegan-food {
-    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/high-protein-vegan-foods-1.jpg?raw=true);
+    background-image: url(https://raw.githubusercontent.com/Ellis-Robinson/ThePlantBase/master/assets/images/high-protein-vegan-foods-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 260px;
@@ -193,7 +193,7 @@ a:hover {
     background-position-x: center;
 }
 #coffee-cheers {
-    background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/events-page/assets/images/coffee-cheers.jpg?raw=true);
+    background-image: url(https://raw.githubusercontent.com/Ellis-Robinson/ThePlantBase/master/assets/images/coffee-cheers.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 260px;
@@ -400,7 +400,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 hr {
-    border-top: 2px solid rgba(0,0,0,0.4);
+    border-top: 2px solid black;
     width: 95%;
 }
 
@@ -429,7 +429,7 @@ hr {
     width: 60%;
     margin-top: -5px;
     margin-bottom: 2rem;
-    border-top: 2px solid;
+    border-top: 2px solid black;
 }
 
 .location-events iframe {
