@@ -508,6 +508,10 @@ img {
         left: 5%;
         margin-top: 90px;
     }
+    /*--404--*/
+    #page-not-found {
+        padding-top: 150px;
+    }
 }
 @media screen and (max-width: 520px) {
      /*----nav bar---*/
@@ -571,10 +575,10 @@ img {
             margin-left:5px;
             margin-top: 5px;
         }
-    #open-mic{
-        width: 200px;
-        height: 250px
-    }
+        #open-mic{
+            width: 200px;
+            height: 250px
+        }
         #om-txt {
             width: 170px;
             margin-left: 10px;
@@ -655,5 +659,9 @@ img {
     }
     #copyright h6 {
     margin: 0px 10px;
+    }
+    /*--404--*/
+    #page-not-found {
+        padding-top: 110px;
     }
 }
