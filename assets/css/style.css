@@ -212,11 +212,18 @@ a:hover {
     padding: 20px;
     background-color: rgba(4,4,4,0.5);
     color: whitesmoke;
-    text-align: -webkit-center;
+    /* text-align: center; */
+}
+#form {
+    text-align:center ;
+}
+form {
+    text-align: initial;
 }
 
 #add-info {
     width: -webkit-fill-available;
+    width: -moz-available;
     height: 100px;
 }
 
@@ -484,6 +491,10 @@ img {
 .spacer {
     height: 70px;
 }
+
+.btn {
+    margin-top: 10px;
+}
 /* -------------------media Queries------------------ */
 
 @media screen and (max-width: 770px) {
@@ -529,6 +540,7 @@ img {
         display: block;
         max-width: 100%;
         height: auto;
+        border-radius: 0%;
     }
     /*-----about us-----*/
     .our-aim,
@@ -590,6 +602,12 @@ img {
     #copyright h6 {
         margin: 0px 50px;
     }
+    /*---contact---*/
+
+    #form-background{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
     /*---menu---*/
     #full-menu {
         width: 90%;
@@ -631,6 +649,7 @@ img {
     }
     .logo-brand {
         margin-bottom: -20px;
+        padding-right: 0px;
     }
 
     .brand {
@@ -645,7 +664,11 @@ img {
     .our-menu div,
     .your-space div {
         max-width: 100%;
-        margin-right: 6px;
+        margin-right: 0px;
+    }
+    
+    #plant-bulb {
+        display: none;
     }
 
     /*-----events page-----*/
