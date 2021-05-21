@@ -1,122 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Yellowtail&display=swap');
 
-/* 
-To do list:
-- add backup fonts to styles!! 
-- adjust font color so contrast is okay!!
-- offset form so input sections are central and subtitles are off to left
-- format images in about us section so equal and display propperly on small large screen
-- space out copyright section
-- fix vl at lg and md screen sizes
-*/
-
 /* -------------------colors------------------ */
-
 body {
     background-color: #c88553;
     background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/vine.jpg?raw=true);
 }
-
 .background {
     background-color: rgba(	200,133,83,0.95);
 }
-
 .nav-bar a, .brand {
-    color: #f1f1f1;
+    color: #ffffff;
 }
-
 a:hover {
     color: #aeaeae;
 }
-
 input,
 #host-book,
 #add-info,
 #date {
-    background-color: antiquewhite;
+    background-color: #f1f1f1;
 }
 .green {
     color:#2d4e02;
 }
-
-
 /* -------------------navbar------------------ */
-
-
 nav {
     background-color: rgba(4,4,4,0.5);
     position: absolute;
     width: 100%;
     height: 70px
 }
-
 #contact-us-nav {
     position: static;
 }
-
 .nav-bar {
     font-family: "BenchNine";
     float: right;
     margin-top: 25px;
 }
-
 .nav-bar a {
     font-size: 30px;
     margin: 0px 10px 10px 10px;
 }
-
 a:hover {
     text-decoration: none;
 }
-
 .logo {
     margin-top: -40px;
 }
-
 .brand {
     font-family: "BenchNine";
     font-weight: 700;
     font-size: 55px;
 }
-
 .logo-brand {
     display: inline-block;
     
 }
-
 /* -------------------dropdown menus------------------ */
-
 .nav-bar-drop-down {
     position: relative;
     display: none;
     font-size: 30px;
-    color: white;
+    color: #ffffff;
 }
-
 .nav-bar {
     display: block;
     float: right;
 }
-
 .menu-dropdown {
     position: relative;
     display: inline-block
 }
-
-/* .food-drink-menu {
-    display: none;
-    position: absolute;
-    background-color: rgba(4,4,4,0.5);
-    text-align: center;
-} */
-
-/* .menu-dropdown:hover .food-drink-menu {
-    display: block;
-} */
-
-
 /* -------------------images------------------ */
-
 .hero-image {
     height: 90vh;
     background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/hero.jpg?raw=true);
@@ -126,15 +82,12 @@ a:hover {
     background-attachment: fixed;
     margin-bottom: 15px;
 }
-
 #hero-image {
     display: none;
 }
-
 .about-us img {
     width: 100%;
 }
-
 .eventsection-img {
     width: 300px;
     height: 300px;
@@ -168,11 +121,9 @@ a:hover {
 #coffee-outline {
     width: 50%;
 }
-
 /* ------- about us -------- */
 .about-us i {
     padding-left: 5px;
-}
 }
 #plant-bulb {
     background-image: url(https://raw.githubusercontent.com/Ellis-Robinson/ThePlantBase/master/assets/images/plant-bulb.jpg);
@@ -198,7 +149,6 @@ a:hover {
     border-radius: 20%;
     background-position-x: center;
 }
-
 /* -------location + events -------- */
 .vl-location {
     height: 270px;
@@ -209,7 +159,7 @@ a:hover {
     margin: 50px;
     padding: 20px;
     background-color: rgba(4,4,4,0.5);
-    color: whitesmoke;
+    color: #f1f1f1;
     /* text-align: center; */
 }
 #form {
@@ -218,20 +168,16 @@ a:hover {
 form {
     text-align: initial;
 }
-
 #add-info {
     height: 100px;
     width:100%;
 }
-
 .contact-details-2 {
     display: none;
 }
-
 .request-details-2 {
     display: none;
 }
-
 /* -------------------events page------------------ */
 .events-images {
     width: 100%;
@@ -242,22 +188,19 @@ form {
     margin-top: 45px;
     margin-bottom: 20px;
 }
-
 .eventsection-bg:hover {
     box-shadow: 5px 5px rgba(4,4,4,0.5);
     transform: scale(1.1);
-}
-        
+}  
 .eventsection-bg {
     border-radius: 50%;
     background-color: #c88553;
-    color: white;
+    color: #ffffff;
     border: 5px double;
     transition: transform .2s;
     position: relative;
 }
-        
-        
+  
 #food-tasting{
     width: 370px;
     height: 370px;
@@ -292,7 +235,6 @@ form {
     margin-left: 50px;
     margin-top: 25px;
 }
-
 #your-next-event {
     width: 415px;
     height: 415px;
@@ -305,9 +247,7 @@ form {
     margin-left: 35px;
     margin-top: 50px;
     }
-
     /* -------------------menu----------------- */
-
 #full-menu {
     padding-top: 30px;
     width: 60%;
@@ -319,36 +259,21 @@ form {
     margin-top: 70px;
     border: 10px groove #8e5e3b;
 }
-
-.background-vines {
-    border-top: #212529;
-}
-
 #full-menu li,
 #full-menu ul {
     padding: 10px 0px;
 }
-/* .small-vine {
-    height: 20px;
-    width: 40%;
-    background-image: url(https://s.pngix.com/pngfile/s/617-6179709_the-open-world-action-rpg-where-you-ruin.png);
-    background-size: cover;
-} */
-
 /* -------------------footer------------------ */
-
 .opening-times-table {
     display: flex;
     justify-content: center;
     font-size: small;
     
 }
-
 .contact-details span {
     margin-right: 10px;
     font-size: 20px;
 }
-
 .contact-details a {
     color: #212529;
 }
@@ -359,12 +284,11 @@ form {
     text-transform: capitalize;
     font-size: larger;
 }
-
 .vl-footer {
     height: 170px;
 }
 #copyright {
-    color: whitesmoke;
+    color: #f1f1f1;
     background-color: rgba(4,4,4,0.5);
     height: 100px;
     display: flex;
@@ -378,15 +302,12 @@ form {
     font-size: larger;
 }
 #copyright a {
-    color: whitesmoke;
+    color: #f1f1f1;
 }
-
 /* -------------------general------------------ */
-
 ul {
     list-style-type: none;
 }
-
 #page-not-found {
     padding: 25% 25% 10%;
     text-align: center;
@@ -397,92 +318,74 @@ a:active {
 .centred {
     text-align: center;
 }
-
 h1,h2,h3,h4,h5,h6 {
     font-family: "BenchNine" ;
     font-weight: 700;
     text-transform: capitalize;
 }
-
 .vl {
     border-left: 1px solid black;
     position: absolute;
     right: 50%;
 }
-
 hr {
     border-top: 2px solid black;
     width: 95%;
 }
-
 .row {
     margin: 0;
 }
-
 .events-sections {
     margin-bottom: 5px;
 }
-
 .display-block-md {
     display: none;
 }
-
 .display-block-sm {
     display: none;
 }
-
 .section-heading {
     width: fit-content;
     display: inline-block;
 }
-
 .small-hr {
     width: 60%;
     margin-top: -5px;
     margin-bottom: 2rem;
     border-top: 2px solid black;
 }
-
 .location-events iframe {
     width: 100%;
     height: 70%;
 }
-
 form table {
     display: flex;
     justify-content: center;
 }
-
 .center-80 {
         display: flex;
     justify-content: center;
     margin-right: 10%;
     margin-left: 10%;
 }
-
 .justify-left {
     display: flex;
     justify-content: flex-start;
 }
-
 .justify-center{
     display: flex;
     justify-content: center;
 }
-
 .justify-right{
     display: flex;
     justify-content: flex-end;
 }
-
 img {
     border-radius: 20%;
 }
-
 .about-us img {
         display: none;
     }
-
 .display-flex-center {
     display: flex;
     justify-content: center;
@@ -495,25 +398,20 @@ img {
 .spacer {
     height: 70px;
 }
-
 .btn {
     margin-top: 10px;
 }
 /* -------------------media Queries------------------ */
-
 @media screen and (max-width: 770px) {
-
     nav {
         text-align: center;
         height: 110px;
     }
-
     .logo-brand {
         display: block;
         margin-bottom: -10px;
         padding-right: 10px;
     }
-
     .nav-bar-drop-down {
         position: relative;
         display: block;
@@ -523,11 +421,9 @@ img {
         display: none;
         margin: 0px;
     }
-
     .nav-bar-bars {
         display: inline-block;
     }
-
     .nav-bar-bars:hover .nav-bar {
         display: block;
         position: absolute;
@@ -555,7 +451,6 @@ img {
         max-width: 100%;
         margin-top: 15px;
     }
-
     .our-aim div,
     .our-menu div,
     .your-space div {
@@ -568,15 +463,12 @@ img {
     #coffee-cheers {
         background-image: none;
     }
-    
     #vegan-food {
         background-image: none;
     }
-    
     #plant-bulb {
         background-image: none;
     }
-
     /*---location + events ---*/
     .vl-location {
         display: none;
@@ -602,12 +494,10 @@ img {
     .eventsection-img {
         display: none;
     }
-
     #copyright h6 {
         margin: 0px 50px;
     }
     /*---contact---*/
-
     #form-background{
         margin-left: 30px;
         margin-right: 30px;
@@ -634,11 +524,9 @@ img {
         display: none;
         margin: 0px;
     }
-
     .nav-bar a {
         font-size: 25px;
     }
-
     .nav-bar-bars:hover .nav-bar {
         display: block;
         position: absolute;
@@ -655,11 +543,9 @@ img {
         margin-bottom: -20px;
         padding-right: 0px;
     }
-
     .brand {
         font-size: 45px;
     }
-
     /* ------about us------ */
     .about-us img {
         display: none;
@@ -670,13 +556,10 @@ img {
         max-width: 100%;
         margin-right: 0px;
     }
-    
     #plant-bulb {
         display: none;
     }
-
     /*-----events page-----*/
-
     #food-tasting {
         width: 200px;
         height: 205px;
@@ -725,28 +608,22 @@ img {
         font-size: small;
         border-radius: 10%;
     }
-
     /* ---- contact page ---- */
     form input {
         width: 90%;
     }
-
     .contact-details-2 {
     display: inline;
     }
-
     .contact-details-1 {
         display: none;
     }
-
     .request-details-2 {
         display: inline;
     }
-
     .request-details-1 {
         display: none;
     }
-
     #form-background {
         margin: 45px 10px;
     }
@@ -754,11 +631,9 @@ img {
         padding-bottom: 20px;
         padding-top: 20px;
     }
-
     label {
         min-width: 110px;
     }
-
     /*---menu---*/
     #full-menu {
         width: 90%;
