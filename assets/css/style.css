@@ -28,7 +28,7 @@ nav {
     background-color: rgba(4,4,4,0.5);
     position: absolute;
     width: 100%;
-    height: 70px
+    height: 70px;
 }
 #contact-us-nav {
     position: static;
@@ -305,6 +305,7 @@ form {
     color: #f1f1f1;
 }
 /* -------------------general------------------ */
+
 ul {
     list-style-type: none;
 }
@@ -516,7 +517,14 @@ img {
 @media screen and (max-width: 520px) {
      /*----nav bar---*/
     nav {
-        height: 75px;
+        height: 50px;
+    }
+    .bars-background {
+        background-color: rgba(4,4,4,0.5);
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        margin-top: -3px;
     }
     .nav-bar-drop-down {
         position: relative;
@@ -539,16 +547,19 @@ img {
         top: 92%;
         right: 0.1%;
         text-align: center;
+        top: 30px;
     }
     .logo {
         display: none;
     }
     .logo-brand {
-        margin-bottom: -20px;
+        margin-bottom: 0px;
         padding-right: 0px;
     }
     .brand {
         font-size: 45px;
+        display: inline-block;
+        height: 50px;
     }
     /* ------about us------ */
     .about-us img {
@@ -577,11 +588,11 @@ img {
         }
         #open-mic{
             width: 200px;
-            height: 250px
+            height: 270px
         }
         #om-txt {
-            width: 170px;
-            margin-left: 10px;
+            width: 180px;
+            margin-left: 5px;
             margin-top: 5px;
         }
         #poetry-reading {
