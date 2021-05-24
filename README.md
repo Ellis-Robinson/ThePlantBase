@@ -121,6 +121,26 @@ I used balsamiq to create mock ups of the website, use the link to view them.
 
 ## __8. Testing__
 
+#### Code validation
+
++ All the HTML and CSS pages have been tested on [W3C](https://validator.w3.org/) and [jigsaw](https://jigsaw.w3.org/css-validator/).
+screenshot links below.
+    - [index.html](docs/README-images/validator-screenshots/w3v-index.png)
+    - [menu.html](docs/README-images/validator-screenshots/w3v-menu.png)
+    - [events.html](docs/README-images/validator-screenshots/w3v-events.png)
+    - [contact.html](docs/README-images/validator-screenshots/w3v-contact.png)
+    - [style.css](docs/README-images/validator-screenshots/w3v-css.png)
+
+#### Accessibility
+
++ All pages were tested for Accessibility using [WAVE](https://wave.webaim.org/)
+  1 error (empty table header) was detected and corrected.
+  several contrast errors were detected and corrected.
+    - [index.html](docs/README-images/wave-screenshots/wave-index.png)
+    - [menu.html](docs/README-images/wave-screenshots/wave-menu.png)
+    - [events.html](docs/README-images/wave-screenshots/wave-events.png)
+    - [contact.html](docs/README-images/wave-screenshots/wave-contact.png)
+
 ## __7. bugs and fixes__
 
 __Bug:__ .logo-brand stuck to left side of screen at smaller screen sizes.
