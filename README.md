@@ -141,7 +141,26 @@ screenshot links below.
     - [events.html](docs/README-images/wave-screenshots/wave-events.png)
     - [contact.html](docs/README-images/wave-screenshots/wave-contact.png)
 
-## __7. bugs and fixes__
+#### User story test cases 
+
+a. As a visiting user I want to quickly and easily find essential information such as location and opening times.
+![index.html-location-time](docs/README-images/user-story-tests/location-time.png)
+
+b. As a visiting user I want to know what you are selling and how I can get it.
+![index.html-our-menu](docs/README-images/user-story-tests/our-menu.png)
+![index.html-menu](docs/README-images/user-story-tests/menu.png)
+
+c. As a visiting user I want to know what types of spaces and events there are so I can decide if I'm interested in going.
+![events.html-types-of-events](docs/README-images/user-story-tests/types-of-events.png)
+
+d. As a visiting user I want to see a list of events so I know what's happening when 
+![events.html-types-of-events](docs/README-images/user-story-tests/list-of-events.png)
+
+
+e. As a visiting user I want clear contact details so I can request any extra information I need.
+![contact.html-contact-form](docs/README-images/user-story-tests/contact-form.png)
+
+#### bugs and fixes
 
 __Bug:__ .logo-brand stuck to left side of screen at smaller screen sizes.
 <br>
@@ -179,6 +198,11 @@ __Fix:__ Originaly; on hover set the individual width and height to slightly lar
 __Bug:__ Events page sections too big for mobile screens, when made smaller the text was too long for container
 <br>
 __Fix:__ Used span in text to hide selected sentences at lower screen sizes
+
+#### Supported screens ad browsers
+
+I have tested the page for compatability on firefox, google chrome and microsoft edge, 
+as well as using the developer tools to check it accross a varity of different phone and tablet screen sizes.
 
 ## __8. credits__
 
