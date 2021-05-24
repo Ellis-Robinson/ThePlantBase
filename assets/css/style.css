@@ -21,9 +21,9 @@ a:hover {
 
 /*dont use IDs, use classes*/
 input,
-#host-book,
-#add-info,
-#date {
+.host-book,
+.add-info,
+.date {
     background-color: #f1f1f1;
 }
 
@@ -237,7 +237,7 @@ form {
 .eventsection-bg {
     border-radius: 50%;
     background-color: #c88553;
-    color: #ffffff;
+    color: #000;
     border: 5px double;
     transition: transform .2s;
     position: relative;

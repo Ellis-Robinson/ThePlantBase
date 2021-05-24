@@ -86,7 +86,7 @@ The nav bar text color is white over a semi transparent dark background. This al
 
 General text color is a very dark grey #212529 to contrast enough with the light brown without being as jaring as solid black.
 
-Event page text sections, are white over the solid version of the background brown #c88553 to identify them as interactive. 
+Event page text sections, are black over the solid version of the background brown #c88553 for extra contrast. 
 
 The heading font is BenchNine from google fonts and was chosen to be clear and stylish without being too robotic. It comes in a light 300, regular 400 and bold 700 which allows for clear distinguishing between main headings and sub headings. 
 
