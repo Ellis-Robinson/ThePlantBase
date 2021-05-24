@@ -366,6 +366,10 @@ form {
     color: #f1f1f1;
 }
 
+.email-phone {
+    margin:0px 70px;
+}
+
 /* -------------------general------------------ */
 
 ul {
@@ -493,7 +497,9 @@ img {
 .btn {
     margin-top: 10px;
 }
-
+footer {
+    width: 100vw;
+}
 /* -------------------media Queries------------------ */
 @media screen and (max-width: 770px) {
     nav {
@@ -626,7 +632,10 @@ img {
         left: 5%;
         margin-top: 90px;
     }
-
+    /*---footer---*/
+    .email-phone {
+    margin:0px 50px;
+}
     /*--404--*/
     #page-not-found {
         padding-top: 150px;
@@ -825,14 +834,16 @@ img {
     .display-block-sm {
         display: block;
     }
-
+    .copyright {
+        display: block;
+        text-align: center;
+    }
     .copyright h6 {
         margin: 0px 10px;
     }
-    .copyright span {
-        margin: 0px, 10px;
-    }
-
+    .email-phone {
+    margin:0px 10px;
+}
     /*--404--*/
     #page-not-found {
         padding-top: 110px;
