@@ -16,7 +16,7 @@
     <div class="background">
         <!-- nav bar -->
         <header>
-            <nav id="contact-us-nav">
+            <nav class="contact-nav">
                 <div class="logo-brand">
                     <a href="index.html">
                         <img class="logo" src="assets/images/logo.png" alt="three leaf logo" width="60" height="60">
@@ -24,6 +24,7 @@
                     </a>
                 </div>
                 <!--Drop down nav bar-->
+                <div class="bars-background">
                 <div class="nav-bar-drop-down">
                     <div class="nav-bar-bars">
                         <i class="fas fa-bars"></i>
@@ -34,6 +35,7 @@
                             <a href="contact-us.html">Contact</a>
                         </div>
                     </div>
+                </div>
                 </div>
                 <!--large screen nav bar-->
                 <div class="nav-bar">
@@ -103,7 +105,7 @@
                                 </label>
                             </td>
                             <td>
-                                <input type="number" name="phone-number" id="phone-number" required>
+                                <input type="tel" name="phone-number" id="phone-number" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" required>
                             </td>
                         </tr>
                         <tr>
