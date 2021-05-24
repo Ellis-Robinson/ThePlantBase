@@ -14,44 +14,68 @@
 
 ## __2. user stories__
  
- __First time users:__
+ 
+a. As a visiting user I want to quickly and easily find essential information such as location and opening times.
 
-a. As a first time user I want to quickly and easily find essential information such as location and opening times.
-
-b. As a first time user I want to know what you are selling and how I can get
+b. As a visiting user I want to know what you are selling and how I can get
 it.
 
-c. As a first time user I want clear and intuitive navigation between pages.
+c. As a visiting user I want to know what types of spaces and events there are so I can decide if I'm interested in going.
 
-d. As a first time user I want images of the types of space and events so I can quickly decide if I'm interested in going.
+d. As a visiting user I want to see a list of events so I know what's happening when 
 
- __Returning users:__
-
-a. As a returning user I want to see a list of events so I know what's happening when 
-
-b. As a returning user I want clear contact details so I can request any extra information I need.
+e. As a visiting user I want clear contact details so I can request any extra information I need.
 
 ## __3. Features__ 
 
-+ Navigation: The nav bar will be fixed to the top of the page, with clear clickable links to the other pages on the site. It will be responsive across different screen sizes, changing into a collapsible menu on smaller screens.
-The logo will also be a clickable link back to the home page. Use :hover pseudo class for links to improve user experience.
-
-+ Imagery: Large image on the homepage of the main space. Use Carousel feature from bootstrap to cycle through multiple images. Other stationary images that align with written information i.e food photos next to section about our menu.
-Use font awesome icons to help users immediately associate with the text.
-
-+ Use Iframe to embed google maps so users can find us.
-
-+ A table to show upcoming events, with dates and prices.
-
-+ Links to social media under contact details. Use target = “_blank” so user not taken away from our site.
-
-+ Form to allow users to request more information. Use “required” attribute to avoid incomplete form submission. Drop down menu options to clearly separate people wanting to book an event from those wanting to host an event. 
-
-## __4. future features__ 
-	
-+ Use Javascript to Add interactive calendar for users to see upcoming events. 
-
-+ Store information entered via contact form.
+### Home page 
++ Nav bar
+    - Company name
+    - Company logo
+    - links to: Home, Menu, Events, Contact 
++ Image of cafe
++ "About us" section
+    - Sub sections: Our Aim, Our menu, Your space
+    - related images
++ Map showig location of venue
++ List of upcoming events
++ Opening times
++ Footer
+    - copyright
+    - links to socials
+    - email and phone number
+### Menu page
++ Nav bar
++ Menu with prices and allergy information
++ Footer
+### Events page
++ Nav bar
++ 4 sections explaing the different events with times, prices and a photo 
+    - food tasting
+    - open mic nights
+    - poetry reading 
+    - your event
++ Footer
+### Contact page
++ Nav bar
++ Contact from
+    - contact details
+        - First name 
+        - Last name
+        - email
+        - phone number
+        - Company 
+    - request details
+        - Type of request: host/book
+        - date
+        - additional info
+    - submit button
++ confirmation of successful submit
++ Footer
+### 404 page
++ Nav bar
++ friendly message and image 
++ Footer
 
 ## __5. Typography and colour scheme__ 
 
@@ -70,6 +94,32 @@ The heading font is BenchNine from google fonts and was chosen to be clear and s
 
 I used balsamiq to create mock ups of the website, use the link to view them.
 [The Plant Base wireframes](assets/images/README-images/wireframes/ThePlantBase.pdf)
+
+## __7. Technology__
+
+[Balsamiq](https://balsamiq.com/) -  This was used to create the wireframes for the projects
+
+[HTML5](https://html5.org/)  -  The HTML pages were written using HTML5
+
+[CSS3](https://www.css3.info/)  -  Each HTML page page was styles using CSS3
+
+[Bootstrap](https://getbootstrap.com/) -  Bootstrap was used for some of the page structuring and other componants
+
+[Google maps](https://www.google.com/maps) – Good maps were used to embed a location into HTML page
+
+[firefox](https://www.mozilla.org/en-GB/firefox/new/) – The project was completed using firefox browser. All development and testing was originally done on this browser before final testing on other browsers.
+
+[google chrome](https://www.google.co.uk/intl/en_uk/chrome/) – chrome was one of the browsers used for testing compatibility after the completion of the project
+
+[Microsoft edge](https://microsoftedgewelcome.microsoft.com/en-gb/) – Microsoft edge was one of the browsers used for testing compatibility after the completion of the project
+
+[W3 code validator](https://validator.w3.org/)  -  This was used to check my code for any errors. All HTML and CSS pages were tested
+
+[git hub](https://github.com/) – Github is where my repository for this project is stored, this Is also where the page was launched from.
+
+[Git-pod](https://www.gitpod.io/) – through github I used gitpod for the actual coding of the website. 
+
+## __8. Testing__
 
 ## __7. bugs and fixes__
 

@@ -34,12 +34,12 @@ input,
 /* -------------------navbar------------------ */
 nav {
     background-color: rgba(4, 4, 4, 0.5);
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 70px;
+    z-index: 1;
 }
-
-#contact-us-nav {
+.contact-nav {
     position: static;
 }
 
@@ -102,7 +102,7 @@ a:hover {
     margin-bottom: 15px;
 }
 
-#hero-image {
+.hero-image2 {
     display: none;
 }
 
@@ -117,35 +117,35 @@ a:hover {
     border-style: double;
 }
 
-#foodtasting-img {
+.foodtasting-img {
     background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/food-tasting.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
 }
 
-#open-mic-img {
+.open-mic-img {
     background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/open-mic3.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
 }
 
-#poetry-reading-img {
+.poetry-reading-img {
     background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/stock-poet.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
 }
 
-#yne-img {
+.yne-img {
     background-image: url(https://github.com/Ellis-Robinson/ThePlantBase/blob/master/assets/images/crowd.jpg?raw=true);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
 }
 
-#coffee-outline {
+.coffee-outline {
     width: 50%;
 }
 
@@ -154,7 +154,7 @@ a:hover {
     padding-left: 5px;
 }
 
-#plant-bulb {
+.plant-bulb {
     background-image: url(https://raw.githubusercontent.com/Ellis-Robinson/ThePlantBase/master/assets/images/plant-bulb.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ a:hover {
     background-position-x: center;
 }
 
-#vegan-food {
+.vegan-food {
     background-image: url(https://raw.githubusercontent.com/Ellis-Robinson/ThePlantBase/master/assets/images/high-protein-vegan-foods-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@ a:hover {
     background-position-x: center;
 }
 
-#coffee-cheers {
+.coffee-cheers {
     background-image: url(https://raw.githubusercontent.com/Ellis-Robinson/ThePlantBase/master/assets/images/coffee-cheers.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -187,15 +187,16 @@ a:hover {
 }
 
 /* -------------------contact page------------------ */
-#form-background {
+
+.form-background {
     border: 1px solid black;
-    margin: 50px;
+    margin: 65px;
     padding: 20px;
     background-color: rgba(4, 4, 4, 0.5);
     color: #f1f1f1;
 }
 
-#form {
+.form {
     text-align: center;
 }
 
@@ -223,8 +224,8 @@ form {
     min-width: 30vw;
 }
 
-#events-heading {
-    margin-top: 45px;
+.events-heading {
+    margin-top: 90px;
     margin-bottom: 20px;
 }
 
@@ -242,54 +243,54 @@ form {
     position: relative;
 }
 
-#food-tasting {
+.food-tasting {
     width: 370px;
     height: 370px;
     right: 5%;
     margin-right: 20px;
 }
 
-#ft-txt {
+.ft-txt {
     width: 280px;
     height: 330px;
     margin-left: 45px;
     margin-top: 25px;
 }
 
-#open-mic {
+.open-mic {
     width: 370px;
     height: 370px;
     transition: transform .2s;
     left: 5%;
 }
 
-#om-txt {
+.om-txt {
     width: 260px;
     margin-left: 49px;
     margin-top: 5px;
 }
 
-#poetry-reading {
+.poetry-reading {
     width: 400px;
     height: 400px;
     right: 5%;
 }
 
-#pr-txt {
+.pr-txt {
     width: 300px;
     height: 330px;
     margin-left: 50px;
     margin-top: 25px;
 }
 
-#your-next-event {
+.your-next-event {
     width: 415px;
     height: 415px;
     left: 5%;
     margin-bottom: 45px;
 }
 
-#yne-txt {
+.yne-txt {
     width: 340px;
     height: 320px;
     margin-left: 35px;
@@ -297,7 +298,7 @@ form {
 }
 
 /* -------------------menu----------------- */
-#full-menu {
+.full-menu {
     padding-top: 30px;
     width: 60%;
     font-size: x-large;
@@ -309,8 +310,8 @@ form {
     border: 10px groove #8e5e3b;
 }
 
-#full-menu li,
-#full-menu ul {
+.full-menu li,
+.full-menu ul {
     padding: 10px 0px;
 }
 
@@ -318,7 +319,7 @@ form {
 .opening-times-table {
     display: flex;
     justify-content: center;
-    font-size: small;
+    font-size: medium;
 
 }
 
@@ -343,7 +344,7 @@ form {
     height: 170px;
 }
 
-#copyright {
+.copyright {
     color: #f1f1f1;
     background-color: rgba(4, 4, 4, 0.5);
     height: 100px;
@@ -353,14 +354,21 @@ form {
     margin-top: 20px;
 }
 
-#copyright h6 {
+.copyright h6 {
     display: inline-block;
     margin: 0px 70px;
     font-size: larger;
 }
+.copyright a {
+    margin: 0px 10px;
+}
 
-#copyright a {
+.copyright a {
     color: #f1f1f1;
+}
+
+.email-phone {
+    margin:0px 70px;
 }
 
 /* -------------------general------------------ */
@@ -369,7 +377,7 @@ ul {
     list-style-type: none;
 }
 
-#page-not-found {
+.page-not-found {
     padding: 110px 10% 10%;
     text-align: center;
 }
@@ -490,7 +498,9 @@ img {
 .btn {
     margin-top: 10px;
 }
-
+footer {
+    width: 100vw;
+}
 /* -------------------media Queries------------------ */
 @media screen and (max-width: 770px) {
     nav {
@@ -533,7 +543,7 @@ img {
         height: auto;
     }
 
-    #hero-image {
+    .hero-image2 {
         display: block;
         max-width: 100%;
         height: auto;
@@ -561,15 +571,15 @@ img {
         display: inline-flex;
     }
 
-    #coffee-cheers {
+    .coffee-cheers {
         background-image: none;
     }
 
-    #vegan-food {
+    .vegan-food {
         background-image: none;
     }
 
-    #plant-bulb {
+    .plant-bulb {
         background-image: none;
     }
 
@@ -592,37 +602,43 @@ img {
         min-width: 50%;
     }
 
-    #food-tasting,
-    #poetry-reading,
-    #open-mic,
-    #your-next-event {
+    .food-tasting,
+    .poetry-reading,
+    .open-mic,
+    .your-next-event {
         left: 0px;
         margin-bottom: 60px;
     }
 
+    .events-heading {
+    margin-top: 115px
+    }
     .eventsection-img {
         display: none;
     }
 
-    #copyright h6 {
+    .copyright h6 {
         margin: 0px 50px;
     }
 
     /*---contact---*/
-    #form-background {
+    .form-background {
         margin-left: 30px;
         margin-right: 30px;
     }
 
     /*---menu---*/
-    #full-menu {
+    .full-menu {
         width: 90%;
         left: 5%;
         margin-top: 90px;
     }
-
+    /*---footer---*/
+    .email-phone {
+    margin:0px 50px;
+}
     /*--404--*/
-    #page-not-found {
+    .page-not-found {
         padding-top: 150px;
     }
 }
@@ -696,53 +712,53 @@ img {
         margin-right: 0px;
     }
 
-    #plant-bulb {
+    .plant-bulb {
         display: none;
     }
 
     /*-----events page-----*/
-    #food-tasting {
+    .food-tasting {
         width: 200px;
         height: 205px;
         margin-right: 0px;
     }
 
-    #ft-txt {
+    .ft-txt {
         width: 180px;
         height: 230px;
         margin-left: 5px;
         margin-top: 5px;
     }
 
-    #open-mic {
+    .open-mic {
         width: 200px;
         height: 270px
     }
 
-    #om-txt {
+    .om-txt {
         width: 180px;
         margin-left: 5px;
         margin-top: 5px;
     }
 
-    #poetry-reading {
+    .poetry-reading {
         width: 200px;
         height: 250px;
     }
 
-    #pr-txt {
+    .pr-txt {
         width: 180px;
         height: 230px;
         margin-left: 5px;
         margin-top: 5px;
     }
 
-    #your-next-event {
+    .your-next-event {
         width: 200px;
         height: 245px;
     }
 
-    #yne-txt {
+    .yne-txt {
         width: 180px;
         height: 220px;
         margin-top: 5px;
@@ -758,7 +774,11 @@ img {
         border-radius: 10%;
     }
 
+    .events-heading {
+    margin-top: 90px
+    }
     /* ---- contact page ---- */
+    
     form input {
         width: 90%;
     }
@@ -779,7 +799,7 @@ img {
         display: none;
     }
 
-    #form-background {
+    .form-background {
         margin: 45px 10px;
     }
 
@@ -793,7 +813,7 @@ img {
     }
 
     /*---menu---*/
-    #full-menu {
+    .full-menu {
         width: 90%;
         left: 5%;
         margin-top: 50px
@@ -815,13 +835,18 @@ img {
     .display-block-sm {
         display: block;
     }
-
-    #copyright h6 {
+    .copyright {
+        display: block;
+        text-align: center;
+    }
+    .copyright h6 {
         margin: 0px 10px;
     }
-
+    .email-phone {
+    margin:0px 10px;
+}
     /*--404--*/
-    #page-not-found {
+    .page-not-found {
         padding-top: 110px;
     }
 }
