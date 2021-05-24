@@ -203,6 +203,11 @@ __Fix:__ Used span in text to hide selected sentences at lower screen sizes
 
 I have tested the page for compatability on firefox, google chrome and microsoft edge, 
 as well as using the developer tools to check it accross a varity of different phone and tablet screen sizes.
+![firefox](docs/README-images/compatability/TPB-firefox.png)
+![chrome](docs/README-images/compatability/TPB-chrome.png)
+![edge](docs/README-images/compatability/TPB-edge.png)
+![iphone](docs/README-images/compatability/TPB-iphone5.png)
+![ipad](docs/README-images/compatability/TPB-ipad.png)
 
 ## __8. credits__
 
