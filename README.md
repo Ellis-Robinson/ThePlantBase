@@ -1,23 +1,25 @@
-# The Plant Base
+# The Plant Base
 ![Image of website on multiple different devices](docs/README-images/compatibility/responsive.png)
-## __1. Purpose of the project__ 
+to view the full site [click here](https://ellis-robinson.github.io/ThePlantBase/index.html)
+
+## __1. Purpose of the project__ 
 
  This project is the first milestone in my full stack developer course. Its intention is to showcase everything Ive learnt so far, in particular my understanding and ability to use HTML5 and CSS3 whilst focusing on the user experience. For this I have created a website for a fictional vegan cafe/ events venue called The Plant Base.
- to view the full site [click here](https://ellis-robinson.github.io/ThePlantBase/index.html)
- __Company objectives:__
-* An online presence
-* Get more customers
-* Promote Sustainability
-* Encourage meat free diets
-* Provide a relaxing and enjoyable space
-* Build and strengthen sense of community 
+ 
+__Company objectives:__
+* An online presence
+* Get more customers
+* Promote Sustainability
+* Encourage meat free diets
+* Provide a relaxing and enjoyable space
+* Build and strengthen sense of community 
 
-## __2. user stories__
+## __2. user stories__
  
  
-a. As a visiting user I want to quickly and easily find essential information such as location and opening times.
+a. As a visiting user I want to quickly and easily find essential information such as location and opening times.
 
-b. As a visiting user I want to know what you are selling and how I can get
+b. As a visiting user I want to know what you are selling and how I can get
 it.
 
 c. As a visiting user I want to know what types of spaces and events there are so I can decide if I'm interested in going.
@@ -26,58 +28,58 @@ d. As a visiting user I want to see a list of events so I know w
 
 e. As a visiting user I want clear contact details so I can request any extra information I need.
 
-## __3. Features__ 
+## __3. Features__ 
 
-### Home page 
-+ Nav bar
-    - Company name
-    - Company logo
-    - links to: Home, Menu, Events, Contact 
-+ Image of cafe
-+ "About us" section
-    - Sub sections: Our Aim, Our menu, Your space
-    - related images
-+ Map showing location of venue
-+ List of upcoming events
-+ Opening times
-+ Footer
-    - copyright
-    - links to socials
-    - email and phone number
-### Menu page
-+ Nav bar
-+ Menu with prices and allergy information
-+ Footer
-### Events page
-+ Nav bar
-+ 4 sections explaining the different events with times, prices and a photo 
-    - food tasting
-    - open mic nights
-    - poetry reading 
-    - your event
-+ Footer
-### Contact page
-+ Nav bar
-+ Contact from
-    - contact details
-        - First name 
-        - Last name
-        - email
-        - phone number
-        - Company 
-    - request details
-        - Type of request: host/book
-        - date
-        - additional info
-    - submit button
-+ confirmation of successful submit
-+ Footer
+### Home page 
++ Nav bar
+  - Company name
+  - Company logo
+  - links to: Home, Menu, Events, Contact 
++ Image of cafe
++ "About us" section
+  - Sub sections: Our Aim, Our menu, Your space
+  - related images
++ Map showing location of venue
++ List of upcoming events
++ Opening times
++ Footer
+  - copyright
+  - links to socials
+  - email and phone number
+### Menu page
++ Nav bar
++ Menu with prices and allergy information
++ Footer
+### Events page
++ Nav bar
++ 4 sections explaining the different events with times, prices and a photo 
+  - food tasting
+  - open mic nights
+  - poetry reading 
+  - your event
++ Footer
+### Contact page
++ Nav bar
++ Contact from
+  - contact details
+    - First name 
+    - Last name
+    - email
+    - phone number
+    - Company 
+  - request details
+    - Type of request: host/book
+    - date
+    - additional info
+    - submit button
++ confirmation of successful submit
++ Footer
 ### 404 page
-+ Nav bar
-+ friendly message and image 
-+ Footer
++ Nav bar
++ friendly message and image 
++ Footer
 
-## __5. Typography and colour scheme__ 
+## __5. Typography and colour scheme__ 
 
 The main color was to be brown to symbolise the earth and rustic themes which ties in with our company aims and values. Colormind was used to select an initial color palate, then tweaked them using developer tools.
 Eventually the lighter brown rgba( 200,133,83,0.95) was used for the background color, which i used as a semi transparent overlay for a repeating [vine pattern](assets/images/vine.jpg).
@@ -90,12 +92,12 @@ Event page text sections, are black over the solid version of the ba
 
 The heading font is BenchNine from google fonts and was chosen to be clear and stylish without being too robotic. It comes in a light 300, regular 400 and bold 700 which allows for clear distinguishing between main headings and sub headings. 
 
-## __6. wireframes__
+## __6. wireframes__
 
 I used balsamiq to create mock ups of the website, use the link to view them.
 [The Plant Base wireframes](docs/README-images/wireframes/ThePlantBase.pdf)
 
-## __7. Technology__
+## __7. Technology__
 
 [Balsamiq](https://balsamiq.com/) -  This was used to create the wireframes for the projects
 
@@ -121,29 +123,29 @@ I used balsamiq to create mock ups of the website, use the link to�
 
 [Git-pod](https://www.gitpod.io/) – through github I used gitpod for the actual coding of the website. 
 
-## __8. Testing__
+## __8. Testing__
 
-#### 8. 1 Code validation
+#### 8. 1 Code validation
 
-+ All the HTML and CSS pages have been tested on [W3C](https://validator.w3.org/) and [jigsaw](https://jigsaw.w3.org/css-validator/).
++ All the HTML and CSS pages have been tested on [W3C](https://validator.w3.org/) and [jigsaw](https://jigsaw.w3.org/css-validator/).
 screenshot links below.
-    - [index.html](docs/README-images/validator-screenshots/w3v-index.png)
-    - [menu.html](docs/README-images/validator-screenshots/w3v-menu.png)
-    - [events.html](docs/README-images/validator-screenshots/w3v-events.png)
-    - [contact.html](docs/README-images/validator-screenshots/w3v-contact.png)
-    - [style.css](docs/README-images/validator-screenshots/w3c-css.png)
+  - [index.html](docs/README-images/validator-screenshots/w3v-index.png)
+  - [menu.html](docs/README-images/validator-screenshots/w3v-menu.png)
+  - [events.html](docs/README-images/validator-screenshots/w3v-events.png)
+  - [contact.html](docs/README-images/validator-screenshots/w3v-contact.png)
+  - [style.css](docs/README-images/validator-screenshots/w3c-css.png)
 
-#### 8. 2 Accessibility
+#### 8. 2 Accessibility
 
-+ All pages were tested for Accessibility using [WAVE](https://wave.webaim.org/)
++ All pages were tested for Accessibility using [WAVE](https://wave.webaim.org/)
   1 error (empty table header) was detected and corrected.
   several contrast errors were detected and corrected.
-    - [index.html](docs/README-images/wave-screenshots/wave-index.png)
-    - [menu.html](docs/README-images/wave-screenshots/wave-menu.png)
-    - [events.html](docs/README-images/wave-screenshots/wave-events.png)
-    - [contact.html](docs/README-images/wave-screenshots/wave-contact.png)
+  - [index.html](docs/README-images/wave-screenshots/wave-index.png)
+  - [menu.html](docs/README-images/wave-screenshots/wave-menu.png)
+  - [events.html](docs/README-images/wave-screenshots/wave-events.png)
+  - [contact.html](docs/README-images/wave-screenshots/wave-contact.png)
 
-#### 8. 3 User story test cases 
+#### 8. 3 User story test cases 
 
 a. As a visiting user I want to quickly and easily find essential information such as location and opening times.
 
@@ -166,7 +168,7 @@ e. As a visiting user I want clear contact details so I can request
 
 ![contact.html-contact-form](docs/README-images/user-story-tests/contact-form.png)
 
-#### 8. 4 bugs and fixes
+#### 8. 4 bugs and fixes
 
 __Bug:__ .logo-brand stuck to left side of screen at smaller screen sizes.
 <br>
@@ -205,7 +207,7 @@ __Bug:__ Events page sections too big for mobile screens, when made s
 <br>
 __Fix:__ Used span in text to hide selected sentences at lower screen sizes
 
-#### 8. 5 Supported screens ad browsers
+#### 8. 5 Supported screens ad browsers
 
 I have tested the page for compatibility on firefox, google chrome and microsoft edge, 
 as well as using the developer tools to check it across a variety of different phone and tablet screen sizes.
@@ -215,38 +217,40 @@ as well as using the developer tools to check it across a variety o
 ![iphone](docs/README-images/compatibility/TPB-iphone5.png)
 ![ipad](docs/README-images/compatibility/TPB-ipad.png)
 
-## __9. Deployment__
+## __9. Deployment__
 
-#### Github + Gitpod
+#### Github + Gitpod
 
 Github is a code hosting platform that allows you to store your projects and collaborate with others. The process of creating a workspace is as follows:
-1. open [github](https://github.com/) and either log in or create a profile.
-2. create a new, or select a current, repository.
-3. open a gitpod workspace by prefixing any GitHub URL with gitpod.io/#. or add the [gitpod browser extension](https://www.gitpod.io/docs/browser-extension/) which will automatically add this prefix for you.
+
+1. open [github](https://github.com/) and either log in or create a profile.
+2. create a new, or select a current, repository.
+3. open a gitpod workspace by prefixing any GitHub URL with gitpod.io/#. or add the [gitpod browser extension](https://www.gitpod.io/docs/browser-extension/) which will automatically add this prefix for you.
 
 [Gitpod](https://www.gitpod.io/) is the workspace where you write your code before saving and sending it back to your github repository for future use. The process for this is as follows:
-    
+
 in the control panel at the bottom of your workspace type in command:
-1. **git add *{file name}*** - This adds selected files to staging area before committing.
-2. **git commit -m *{"message stating updates made"}*** - This commits changes to local repository.
-3. **git push** - This pushes committed files to github where they are stored for safe keeping.
+1. **git add *{file name}*** - This adds selected files to staging area before committing.
+2. **git commit -m *{"message stating updates made"}*** - This commits changes to local repository.
+3. **git push** - This pushes committed files to github where they are stored for safe keeping.
 
 *(optional) **git status*** - This shows you if you have anything left in the staging area or any un-pushed files. if this is clear then you can safely shutdown the local repository.
 
 Deploying a page to github pages allows others to view your live website. 
 
-1. log into **github**.
-2. select desired **repository**.
-3. select **settings**.
-4. select **pages**.
-5. in source drop-down menu select **master branch**.
-6. select **save** and your website will be deployed and you will be shown the URL.
+1. log into **github**.
+2. select desired **repository**.
+3. select **settings**.
+4. select **pages**.
+5. in source drop-down menu select **master branch**.
+6. select **save** and your website will be deployed and you will be shown the URL.
+
 ![select repository](docs/README-images/deployment/new-repo.png)
 ![select settings](docs/README-images/deployment/settings.png)
 ![select pages](docs/README-images/deployment/pages.png)
 ![select source](docs/README-images/deployment/source.png)
 
-## __10. credits__
+## __10. credits__
 
 For general advice and reminders I used [W3schools](https://www.w3schools.com/) and [Stack overflow](https://stackoverflow.com/)
 
@@ -258,7 +262,7 @@ Changed hex colors into rgba using developer tools and [color-hex](http
 
 The code for the copyright symbol came from [toptal](https://www.toptal.com/designers/htmlarrows/symbols/copyright-sign/)
 
-#### images:
+#### images:
 
 [hero image](assets/images/hero.jpg)- https://unsplash.com/@pinchebesu
 
