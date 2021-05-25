@@ -1,9 +1,9 @@
 # The Plant Base
-
+![Image of website on multiple different devices](docs/README-images/compatability/responsive.png)
 ## __1. Purpose of the project__ 
 
  This project is the first milestone in my full stack developer course. Its intention is to showcase everything Ive learnt so far, in particular my understanding and ability to use HTML5 and CSS3 whilst focusing on the user experience. For this I have created a website for a fictional vegan cafe/ events venue called The Plant Base.
-
+ to view the full site [click here](https://ellis-robinson.github.io/ThePlantBase/index.html)
  __Company objectives:__
 * An online presence
 * Get more customers
@@ -220,27 +220,33 @@ as well as using the developer tools to check it accross a varity of different p
 #### Github + Gitpod
 
 Github is a code hosting platform that allows you to store your projects and collaborate with others. The process of creating a workspace is as follows:
-    1 open [github](https://github.com/) and either log in or create a profile.
-    2 create a new, or select a current, repository.
-    3 open a gitpod workspace by prefixing any GitHub URL with gitpod.io/#. or add the [gitpod browser extetion](https://www.gitpod.io/docs/browser-extension/) which will automatically add this prefix for you.
+1. open [github](https://github.com/) and either log in or create a profile.
+2. create a new, or select a current, repository.
+3. open a gitpod workspace by prefixing any GitHub URL with gitpod.io/#. or add the [gitpod browser extetion](https://www.gitpod.io/docs/browser-extension/) which will automatically add this prefix for you.
 
 [Gitpod](https://www.gitpod.io/) is the workspace where you write your code before saving and sending it back to your github repository for future use. The proccess for this is as follows:
-    in the control panel at the bottom of your workspace type in command:
-        1 git add {file name} - This adds selected files to staging area before committing.
-        2 git commit -m {"message stating updates made"} - This commits changes to local repository.
-        3 git push - This pushes committed files to github where they are stored for safe keeping.
-        (optional) 4 git status - This shows you if you have anything left in the staging area or any unpushed files. if this is clear then you can safely shutdown the local repositry.
+    
+in the control panel at the bottom of your workspace type in command:
+1. **git add *{file name}*** - This adds selected files to staging area before committing.
+2. **git commit -m *{"message stating updates made"}*** - This commits changes to local repository.
+3. **git push** - This pushes committed files to github where they are stored for safe keeping.
+
+*(optional) **git status*** - This shows you if you have anything left in the staging area or any unpushed files. if this is clear then you can safely shutdown the local repositry.
 
 Deplying page to github pages allows others to view your live website. 
 
-    1. log into github.
-    2. select desired repository.
-    3. select settings.
-    4. select pages.
-    5. in scource dropdown menu select master branch.
-    6. select save and your website will be deployed and you will be showen the link.
+1. log into **github**.
+2. select desired **repository**.
+3. select **settings**.
+4. select **pages**.
+5. in scource dropdown menu select **master branch**.
+6. select **save** and your website will be deployed and you will be showen the URL.
+![select repository](docs/README-images/deployment/new-repo.png)
+![select settings](docs/README-images/deployment/settings.png)
+![select pages](docs/README-images/deployment/pages.png)
+![select source](docs/README-images/deployment/source.png)
 
-## __8. credits__
+## __10. credits__
 
 For genreal advice and reminders I used [W3schools](https://www.w3schools.com/) and [Stack overflow](https://stackoverflow.com/)
 
@@ -271,3 +277,4 @@ The code for the copyright symbol came from [toptal](https://www.toptal.com/desi
 [poetry reading](assets/images/stock-poet) - https://freebeacon.com/issues/taxpayers-billed-climate-change-poetry-lgbt-book-clubs-kids/
 
 [logo](assets/images/logo.png) - https://www.pinclipart.com/maxpin/iTJxTmx/
+
