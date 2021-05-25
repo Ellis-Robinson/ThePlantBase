@@ -40,6 +40,7 @@ nav {
     height: 70px;
     z-index: 1;
 }
+
 /* .contact-nav {
     position: static;
 } */
@@ -212,6 +213,7 @@ a:hover {
 form {
     text-align: initial;
 }
+
 .form-table {
     margin-left: 40px;
 }
@@ -243,6 +245,7 @@ form {
     align-items: center;
     position: relative;
 }
+
 .submit-success {
     font-family: "BenchNine";
     font-size: xx-large;
@@ -390,6 +393,7 @@ form {
     margin: 0px 70px;
     font-size: larger;
 }
+
 .copyright a {
     margin: 0px 10px;
 }
@@ -399,7 +403,7 @@ form {
 }
 
 .email-phone {
-    margin:0px 70px;
+    margin: 0px 70px;
 }
 
 /* -------------------general------------------ */
@@ -529,9 +533,11 @@ img {
 .btn {
     margin-top: 10px;
 }
+
 footer {
     width: 100%;
 }
+
 /* -------------------media Queries------------------ */
 @media screen and (max-width: 770px) {
     nav {
@@ -559,7 +565,8 @@ footer {
     .nav-bar-bars {
         display: inline-block;
     }
-/*opens dropdown menu full screen width and semi-transparent background*/
+
+    /*opens dropdown menu full screen width and semi-transparent background*/
     .nav-bar-bars:hover .nav-bar {
         display: block;
         position: absolute;
@@ -642,8 +649,9 @@ footer {
     }
 
     .events-heading {
-    margin-top: 115px
+        margin-top: 115px
     }
+
     .eventsection-img {
         display: none;
     }
@@ -659,6 +667,7 @@ footer {
         top: 140px;
         margin-bottom: 160px;
     }
+
     .success-background {
         margin-left: 30px;
         margin-right: 30px;
@@ -672,10 +681,12 @@ footer {
         left: 5%;
         margin-top: 90px;
     }
+
     /*---footer---*/
     .email-phone {
-    margin:0px 50px;
-}
+        margin: 0px 50px;
+    }
+
     /*--404--*/
     .page-not-found {
         padding-top: 150px;
@@ -809,10 +820,11 @@ footer {
     }
 
     .events-heading {
-    margin-top: 90px
+        margin-top: 90px
     }
+
     /* ---- contact page ---- */
-    
+
     form input {
         max-width: 80%;
     }
@@ -833,7 +845,7 @@ footer {
         display: none;
     }
 
-    .form-background  {
+    .form-background {
         margin: 0px 10px 110px;
         top: 95px;
     }
@@ -853,10 +865,10 @@ footer {
     }
 
     #add-info {
-    height: 100px;
-    width: 87%;
+        height: 100px;
+        width: 87%;
     }
-    
+
     /*---menu---*/
     .full-menu {
         width: 90%;
@@ -876,16 +888,20 @@ footer {
     .display-block-sm {
         display: block;
     }
+
     .copyright {
         display: block;
         text-align: center;
     }
+
     .copyright h6 {
         margin: 0px 10px;
     }
+
     .email-phone {
-    margin:0px 10px;
-}
+        margin: 0px 10px;
+    }
+
     /*--404--*/
     .page-not-found {
         padding-top: 110px;
