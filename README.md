@@ -22,11 +22,11 @@ a. As a visiting user I want to quickly and easily find essential in
 b. As a visiting user I want to know what you are selling and how I can get
 it.
 
-c. As a visiting user I want to know what types of spaces and events there are so I can decide if I'm interested in going.
+c. As a visiting user I want to know what types of spaces and events there are so I can decide if I'm interested in going.
 
-d. As a visiting user I want to see a list of events so I know what's happening when 
+d. As a visiting user I want to see a list of events so I know what's happening when 
 
-e. As a visiting user I want clear contact details so I can request any extra information I need.
+e. As a visiting user I want clear contact details so I can request any extra information I need.
 
 ## __3. Features__ 
 
@@ -36,7 +36,7 @@ e. As a visiting user I want clear contact details so I can request
   - Company logo
   - links to: Home, Menu, Events, Contact 
 + Image of cafe
-+ "About us" section
++ About us section
   - Sub sections: Our Aim, Our menu, Your space
   - related images
 + Map showing location of venue
@@ -74,7 +74,7 @@ e. As a visiting user I want clear contact details so I can request
     - submit button
 + confirmation of successful submit
 + Footer
-### 404 page
+### 404 page
 + Nav bar
 + friendly message and image 
 + Footer
@@ -95,7 +95,7 @@ The heading font is BenchNine from google fonts and was chosen to be
 ## __6. wireframes__
 
 I used balsamiq to create mock ups of the website, use the link to view them.
-[The Plant Base wireframes](docs/README-images/wireframes/ThePlantBase.pdf)
+[The Plant Base wireframes](docs/ThePlantBase.pdf)
 
 ## __7. Technology__
 
