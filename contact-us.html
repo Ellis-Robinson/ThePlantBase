@@ -8,9 +8,9 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-   <link rel="icon" type="image/png" href="assets/images/logo (2).png">
-<link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/logo (2).png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>The Plant Base</title>
 </head>
 
@@ -27,17 +27,17 @@
                 </div>
                 <!--Drop down nav bar-->
                 <div class="bars-background">
-                <div class="nav-bar-drop-down">
-                    <div class="nav-bar-bars">
-                        <i class="fas fa-bars"></i>
-                        <div class="nav-bar">
-                            <a href="index.html">Home</a>
-                            <a href="menu.html">Menu</a>
-                            <a href="events.html">Events</a>
-                            <a href="contact-us.html">Contact</a>
+                    <div class="nav-bar-drop-down">
+                        <div class="nav-bar-bars">
+                            <i class="fas fa-bars"></i>
+                            <div class="nav-bar">
+                                <a href="index.html">Home</a>
+                                <a href="menu.html">Menu</a>
+                                <a href="events.html">Events</a>
+                                <a href="contact-us.html">Contact</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
                 <!--large screen nav bar-->
                 <div class="nav-bar">
@@ -55,8 +55,8 @@
                     <h3>- contact form -</h3>
                     <hr class="small-hr">
                 </div>
-                <form>
-                    <table>
+                <form action="success.html">
+                    <table class="form-table">
                         <tr>
                             <th class="form-heading">
                                 <span class="contact-details-1">contact details</span>
@@ -107,7 +107,7 @@
                                 </label>
                             </td>
                             <td>
-                                <input type="tel" name="phone-number" id="phone-number" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" required>
+                                <input type="tel" name="phone-number" id="phone-number" pattern="[0-9]{11}" required>
                             </td>
                         </tr>
                         <tr>
@@ -167,29 +167,30 @@
                             </td>
                         </tr>
                     </table>
-                    <div class="centred"> <button type="submit" class="btn btn-success">Submit</button> </div>
+                    <div class="centred"> <input type="submit" value="Submit!" class="btn btn-success"></button>
+                    </div>
                 </form>
             </div>
         </div>
         <!--copyright + socials-->
-            <footer>
-                <div class="copyright">
-                        <div>
-                            <h6>ThePlantBase<span>&#169;</span></h6>
-                        </div>
-                       <div>
-                        <span> <a href="https://www.facebook.com/" target="_blank" aria-label="link to facebook"><i
-                                    class="fab fa-facebook-square"></i></a> </span>
-                        <span> <a href="https://twitter.com/?lang=en-gb" target="_blank" aria-label="link to twitter"><i
-                                    class="fab fa-twitter-square"></i></a> </span>
-                        <span> <a href="https://www.instagram.com/" target="_blank" aria-label="link to instagram"><i
-                                    class="fab fa-instagram-square"></i></a> </span>
-                        </div>
-                        <div class="email-phone">
-                            info@theplantbase.co.uk <br> 01253 555 271
-                        </div>
+        <footer>
+            <div class="copyright">
+                <div>
+                    <h6>ThePlantBase<span>&#169;</span></h6>
                 </div>
-            </footer>
+                <div>
+                    <span> <a href="https://www.facebook.com/" target="_blank" aria-label="link to facebook"><i
+                                class="fab fa-facebook-square"></i></a> </span>
+                    <span> <a href="https://twitter.com/?lang=en-gb" target="_blank" aria-label="link to twitter"><i
+                                class="fab fa-twitter-square"></i></a> </span>
+                    <span> <a href="https://www.instagram.com/" target="_blank" aria-label="link to instagram"><i
+                                class="fab fa-instagram-square"></i></a> </span>
+                </div>
+                <div class="email-phone">
+                    info@theplantbase.co.uk <br> 01253 555 271
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

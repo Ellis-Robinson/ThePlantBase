@@ -80,7 +80,7 @@ e. As a visiting user I want clear contact details so I can request any extra in
 ## __5. Typography and colour scheme__ 
 
 The main color was to be brown to symbolise the earth and rustic themes which ties in with our company aims and values. Colormind was used to select an initial color palate, then tweaked them using developer tools.
-Eventually the lighter brown rgba( 200,133,83,0.95) was used for the background color, wich i used as a semi transparant overlay for a repeating [vine pattern](assets/images/vine.jpeg).
+Eventually the lighter brown rgba( 200,133,83,0.95) was used for the background color, wich i used as a semi transparant overlay for a repeating [vine pattern](assets/images/vine.jpg).
  
 The nav bar text color is white over a semi transparent dark background. This allows the nav bar to maintain its contrast whilst identifying the links as clickable by distinguishing them from regular text.
 
@@ -93,7 +93,7 @@ The heading font is BenchNine from google fonts and was chosen to be clear and s
 ## __6. wireframes__
 
 I used balsamiq to create mock ups of the website, use the link to view them.
-[The Plant Base wireframes](assets/images/README-images/wireframes/ThePlantBase.pdf)
+[The Plant Base wireframes](docs/README-images/wireframes/ThePlantBase.pdf)
 
 ## __7. Technology__
 
@@ -104,6 +104,8 @@ I used balsamiq to create mock ups of the website, use the link to view them.
 [CSS3](https://www.css3.info/)  -  Each HTML page page was styles using CSS3
 
 [Bootstrap](https://getbootstrap.com/) -  Bootstrap was used for some of the page structuring and other componants
+
+[fontawesome](https://fontawesome.com/) - Font awesome has a large library of icons, this was used to help identify certain sections of my website.
 
 [Google maps](https://www.google.com/maps) – Good maps were used to embed a location into HTML page
 
@@ -121,7 +123,7 @@ I used balsamiq to create mock ups of the website, use the link to view them.
 
 ## __8. Testing__
 
-#### Code validation
+#### 8. 1 Code validation
 
 + All the HTML and CSS pages have been tested on [W3C](https://validator.w3.org/) and [jigsaw](https://jigsaw.w3.org/css-validator/).
 screenshot links below.
@@ -129,9 +131,9 @@ screenshot links below.
     - [menu.html](docs/README-images/validator-screenshots/w3v-menu.png)
     - [events.html](docs/README-images/validator-screenshots/w3v-events.png)
     - [contact.html](docs/README-images/validator-screenshots/w3v-contact.png)
-    - [style.css](docs/README-images/validator-screenshots/w3v-css.png)
+    - [style.css](docs/README-images/validator-screenshots/w3c-css.png)
 
-#### Accessibility
+#### 8. 2 Accessibility
 
 + All pages were tested for Accessibility using [WAVE](https://wave.webaim.org/)
   1 error (empty table header) was detected and corrected.
@@ -141,26 +143,30 @@ screenshot links below.
     - [events.html](docs/README-images/wave-screenshots/wave-events.png)
     - [contact.html](docs/README-images/wave-screenshots/wave-contact.png)
 
-#### User story test cases 
+#### 8. 3 User story test cases 
 
 a. As a visiting user I want to quickly and easily find essential information such as location and opening times.
+
 ![index.html-location-time](docs/README-images/user-story-tests/location-time.png)
 
 b. As a visiting user I want to know what you are selling and how I can get it.
+
 ![index.html-our-menu](docs/README-images/user-story-tests/our-menu.png)
 ![index.html-menu](docs/README-images/user-story-tests/menu.png)
 
 c. As a visiting user I want to know what types of spaces and events there are so I can decide if I'm interested in going.
+
 ![events.html-types-of-events](docs/README-images/user-story-tests/types-of-events.png)
 
 d. As a visiting user I want to see a list of events so I know what's happening when 
+
 ![events.html-types-of-events](docs/README-images/user-story-tests/list-of-events.png)
 
-
 e. As a visiting user I want clear contact details so I can request any extra information I need.
+
 ![contact.html-contact-form](docs/README-images/user-story-tests/contact-form.png)
 
-#### bugs and fixes
+#### 8. 4 bugs and fixes
 
 __Bug:__ .logo-brand stuck to left side of screen at smaller screen sizes.
 <br>
@@ -199,7 +205,7 @@ __Bug:__ Events page sections too big for mobile screens, when made smaller the 
 <br>
 __Fix:__ Used span in text to hide selected sentences at lower screen sizes
 
-#### Supported screens ad browsers
+#### 8. 5 Supported screens ad browsers
 
 I have tested the page for compatability on firefox, google chrome and microsoft edge, 
 as well as using the developer tools to check it accross a varity of different phone and tablet screen sizes.
@@ -208,6 +214,31 @@ as well as using the developer tools to check it accross a varity of different p
 ![edge](docs/README-images/compatability/TPB-edge.png)
 ![iphone](docs/README-images/compatability/TPB-iphone5.png)
 ![ipad](docs/README-images/compatability/TPB-ipad.png)
+
+## __9. Deployment__
+
+#### Github + Gitpod
+
+Github is a code hosting platform that allows you to store your projects and collaborate with others. The process of creating a workspace is as follows:
+    1 open [github](https://github.com/) and either log in or create a profile.
+    2 create a new, or select a current, repository.
+    3 open a gitpod workspace by prefixing any GitHub URL with gitpod.io/#. or add the [gitpod browser extetion](https://www.gitpod.io/docs/browser-extension/) which will automatically add this prefix for you.
+
+[Gitpod](https://www.gitpod.io/) is the workspace where you write your code before saving and sending it back to your github repository for future use. The proccess for this is as follows:
+    in the control panel at the bottom of your workspace type in command:
+        1 git add {file name} - This adds selected files to staging area before committing.
+        2 git commit -m {"message stating updates made"} - This commits changes to local repository.
+        3 git push - This pushes committed files to github where they are stored for safe keeping.
+        (optional) 4 git status - This shows you if you have anything left in the staging area or any unpushed files. if this is clear then you can safely shutdown the local repositry.
+
+Deplying page to github pages allows others to view your live website. 
+
+    1. log into github.
+    2. select desired repository.
+    3. select settings.
+    4. select pages.
+    5. in scource dropdown menu select master branch.
+    6. select save and your website will be deployed and you will be showen the link.
 
 ## __8. credits__
 

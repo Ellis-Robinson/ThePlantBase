@@ -203,6 +203,9 @@ a:hover {
 form {
     text-align: initial;
 }
+.form-table {
+    margin-left: 40px;
+}
 
 #add-info {
     height: 100px;
@@ -215,6 +218,22 @@ form {
 
 .request-details-2 {
     display: none;
+}
+
+.success-background {
+    border: 1px solid black;
+    margin: 65px;
+    padding: 20px;
+    background-color: rgba(4, 4, 4, 0.5);
+    color: #f1f1f1;
+    justify-content: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.submit-success {
+    font-family: "BenchNine";
+    font-size: xx-large;
 }
 
 /* -------------------events page------------------ */
@@ -339,11 +358,6 @@ form {
     text-transform: capitalize;
     font-size: larger;
 }
-
-.vl-footer {
-    height: 170px;
-}
-
 .copyright {
     color: #f1f1f1;
     background-color: rgba(4, 4, 4, 0.5);
@@ -499,7 +513,7 @@ img {
     margin-top: 10px;
 }
 footer {
-    width: 100vw;
+    width: 100%;
 }
 /* -------------------media Queries------------------ */
 @media screen and (max-width: 770px) {
@@ -780,7 +794,7 @@ footer {
     /* ---- contact page ---- */
     
     form input {
-        width: 90%;
+        max-width: 80%;
     }
 
     .contact-details-2 {
@@ -812,6 +826,13 @@ footer {
         min-width: 110px;
     }
 
+    #add-info {
+    height: 100px;
+    width: 87%;
+    }
+    .success-background {
+        margin: 45px 10px;
+    }
     /*---menu---*/
     .full-menu {
         width: 90%;
@@ -826,10 +847,6 @@ footer {
 
     .opening-times {
         min-width: 100%;
-    }
-
-    .vl-footer {
-        display: none;
     }
 
     .display-block-sm {
