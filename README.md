@@ -147,24 +147,24 @@ screenshot links below.
 
 #### 8. 3 User story test cases 
 
-a. As a visiting user I want to quickly and easily find essential information such as location and opening times.
+a. As a visiting user I want to quickly and easily find essential information such as location and opening times.
 
 ![index.html-location-time](docs/README-images/user-story-tests/location-time.png)
 
-b. As a visiting user I want to know what you are selling and how I can get it.
+b. As a visiting user I want to know what you are selling and how I can get it.
 
 ![index.html-our-menu](docs/README-images/user-story-tests/our-menu.png)
 ![index.html-menu](docs/README-images/user-story-tests/menu.png)
 
-c. As a visiting user I want to know what types of spaces and events there are so I can decide if I'm interested in going.
+c. As a visiting user I want to know what types of spaces and events there are so I can decide if I'm interested in going.
 
 ![events.html-types-of-events](docs/README-images/user-story-tests/types-of-events.png)
 
-d. As a visiting user I want to see a list of events so I know what's happening when 
+d. As a visiting user I want to see a list of events so I know what's happening when 
 
 ![events.html-types-of-events](docs/README-images/user-story-tests/list-of-events.png)
 
-e. As a visiting user I want clear contact details so I can request any extra information I need.
+e. As a visiting user I want clear contact details so I can request any extra information I need.
 
 ![contact.html-contact-form](docs/README-images/user-story-tests/contact-form.png)
 
@@ -211,10 +211,15 @@ __Fix:__ Used span in text to hide selected sentences at lower screen
 
 I have tested the page for compatibility on firefox, google chrome and microsoft edge, 
 as well as using the developer tools to check it across a variety of different phone and tablet screen sizes.
+
 ![firefox](docs/README-images/compatibility/TPB-firefox.png)
+
 ![chrome](docs/README-images/compatibility/TPB-chrome.png)
+
 ![edge](docs/README-images/compatibility/TPB-edge.png)
+
 ![iphone](docs/README-images/compatibility/TPB-iphone5.png)
+
 ![ipad](docs/README-images/compatibility/TPB-ipad.png)
 
 ## __9. Deployment__
@@ -246,8 +251,11 @@ Deploying a page to github pages allows others to view your live webs
 6. select **save** and your website will be deployed and you will be shown the URL.
 
 ![select repository](docs/README-images/deployment/new-repo.png)
+
 ![select settings](docs/README-images/deployment/settings.png)
+
 ![select pages](docs/README-images/deployment/pages.png)
+
 ![select source](docs/README-images/deployment/source.png)
 
 ## __10. credits__
