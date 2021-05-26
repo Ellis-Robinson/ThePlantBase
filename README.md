@@ -149,7 +149,7 @@ screenshot links below.
 
 a. As a visiting user I want to quickly and easily find essential information such as location and opening times.
 
-![index.html-location-time](docs/README-images/user-story-tests/location-time (2).png)
+![index.html-location-time](docs/README-images/user-story-tests/location-time.png)
 
 b. As a visiting user I want to know what you are selling and how I can get it.
 
